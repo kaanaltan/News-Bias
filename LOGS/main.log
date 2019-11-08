@@ -1,0 +1,107 @@
+2019-11-08 12:25:11,327 : INFO : Initializing news_bias.py
+2019-11-08 12:28:00,400 : INFO : Initializing news_bias.py
+2019-11-08 12:37:47,506 : INFO : Data dictionary completed
+2019-11-08 12:37:47,509 : INFO : Saved scraped dictionary to json file
+2019-11-08 12:37:47,510 : INFO : Read scraped data from json file
+2019-11-08 12:37:47,510 : INFO : Data saved as json file
+2019-11-08 12:37:47,510 : WARNING : No data in json file
+2019-11-08 12:37:47,511 : INFO : Dataframe built: Empty DataFrame
+Columns: []
+Index: []
+2019-11-08 12:37:47,525 : INFO : CSV Saved, check: CSV
+2019-11-08 12:44:52,245 : INFO : Initializing news_bias.py
+2019-11-08 12:48:41,455 : INFO : Data dictionary completed
+2019-11-08 12:48:41,456 : INFO : Saved scraped dictionary to json file
+2019-11-08 12:48:42,457 : INFO : Read scraped data from json file
+2019-11-08 12:48:42,458 : INFO : Data saved as json file
+2019-11-08 12:48:42,458 : WARNING : No data in json file
+2019-11-08 12:48:42,459 : INFO : Dataframe built: Empty DataFrame
+Columns: []
+Index: []
+2019-11-08 12:48:42,467 : INFO : CSV Saved, check: CSV
+2019-11-08 12:56:42,622 : INFO : Initializing news_bias.py
+2019-11-08 12:58:27,816 : INFO : Data dictionary completed
+2019-11-08 12:58:27,817 : INFO : Saved scraped dictionary to json file
+2019-11-08 12:58:27,818 : INFO : Data saved to json file
+2019-11-08 12:58:27,844 : INFO : Dataframe built from json file
+2019-11-08 12:58:27,846 : INFO : Dataframe built:                                    news_page                                      allsides_page  agree  disagree  agree_ratio         bias     agreeance_text
+name                                                                                                                                                         
+ABC News              http://abcnews.go.com/  https://www.allsides.com/news-source/abc-news-...  14313      9624     1.487219  left-center    somewhat agrees
+AlterNet            http://www.alternet.org/  https://www.allsides.com/news-source/alternet-...   3612       896     4.031250         left  absolutely agrees
+American Spectator     http://spectator.org/  https://www.allsides.com/news-source/american-...   7242      2896     2.500691        right    strongly agrees
+2019-11-08 12:58:27,852 : INFO : CSV Saved, check folder: CSV
+2019-11-08 13:03:46,997 : INFO : Initializing news_bias.py
+2019-11-08 13:04:08,248 : INFO : Data dictionary completed
+2019-11-08 13:04:08,248 : INFO : Saved scraped dictionary to json file
+2019-11-08 13:04:08,249 : INFO : Data saved to json file
+2019-11-08 13:04:08,265 : INFO : Dataframe built from json file
+2019-11-08 13:04:08,267 : INFO : Dataframe built:                        news_page                                      allsides_page  agree  disagree  agree_ratio         bias   agreeance_text
+name                                                                                                                                           
+ABC News  http://abcnews.go.com/  https://www.allsides.com/news-source/abc-news-...  14314      9624     1.487323  left-center  somewhat agrees
+2019-11-08 13:04:08,273 : INFO : CSV Saved, check folder: CSV
+2019-11-08 13:09:36,923 : INFO : Initializing news_bias.py
+2019-11-08 13:19:17,134 : INFO : Data dictionary completed
+2019-11-08 13:19:17,137 : INFO : Saved scraped dictionary to json file
+2019-11-08 13:19:17,137 : INFO : Data saved to json file
+2019-11-08 13:19:17,162 : WARNING : No data in json file
+2019-11-08 13:19:17,163 : INFO : Dataframe built: Empty DataFrame
+Columns: []
+Index: []
+2019-11-08 13:19:17,165 : INFO : CSV Saved, check folder: CSV
+2019-11-08 13:26:41,062 : INFO : Initializing news_bias.py
+2019-11-08 13:36:16,750 : INFO : Data dictionary completed
+2019-11-08 13:36:16,753 : INFO : Saved scraped dictionary to json file
+2019-11-08 13:36:16,753 : INFO : Data saved to json file
+2019-11-08 13:36:16,812 : INFO : Dataframe built from json file
+2019-11-08 13:36:16,817 : INFO : Dataframe built:                                Name                                          News_Page                                      Allsides_Page    Media_Bias  Agree_Count  Disagree_Count  Agreeance_Ratio           Agreeance
+0                          ABC News                             http://abcnews.go.com/  https://www.allsides.com/news-source/abc-news-...   left-center        14315            9624         1.487427     somewhat agrees
+1                          AlterNet                           http://www.alternet.org/  https://www.allsides.com/news-source/alternet-...          left         3613             896         4.032366   absolutely agrees
+2                American Spectator                              http://spectator.org/  https://www.allsides.com/news-source/american-...         right         7242            2896         2.500691     strongly agrees
+3                  Associated Press                                 http://www.ap.org/  https://www.allsides.com/news-source/associate...        center         8509            6061         1.403894     somewhat agrees
+4                          BBC News                                http://www.bbc.com/  https://www.allsides.com/news-source/bbc-news-...        center        11622           11367         1.022433     somewhat agrees
+5                         Bloomberg                          http://www.bloomberg.com/  https://www.allsides.com/news-source/bloomberg...        center         6660            7883         0.844856  somewhat disagrees
+6                    Breitbart News                          http://www.breitbart.com/     https://www.allsides.com/news-source/breitbart         right        17632            8188         2.153395     strongly agrees
+7                     BuzzFeed News                            http://buzzfeednews.com  https://www.allsides.com/news-source/buzzfeed-...          left         6673            6665         1.001200     somewhat agrees
+8                          CBS News                            http://www.cbsnews.com/  https://www.allsides.com/news-source/cbs-news-...   left-center         7166            5554         1.290241     somewhat agrees
+9         Christian Science Monitor                          http://www.csmonitor.com/  https://www.allsides.com/news-source/christian...        center         9288           12241         0.758762  somewhat disagrees
+10                   CNN (Web News)                                 http://www.cnn.com  https://www.allsides.com/news-source/cnn-media...   left-center        28103           29441         0.954553  somewhat disagrees
+11                  CNN - Editorial                       https://www.cnn.com/opinions  https://www.allsides.com/news-source/cnn-edito...          left         8906            2495         3.569539   absolutely agrees
+12                      Daily Beast                      http://www.thedailybeast.com/  https://www.allsides.com/news-source/daily-bea...          left         8027            4290         1.871096              agrees
+13                       Daily Mail                             http://dailymail.co.uk    https://www.allsides.com/news-source/daily-mail         right         2669            1964         1.358961     somewhat agrees
+14                    Democracy Now                       http://www.democracynow.org/  https://www.allsides.com/news-source/democracy...          left         5629            1864         3.019850   absolutely agrees
+15                           Forbes                             http://www.forbes.com/        https://www.allsides.com/news-source/forbes        center         4229            2558         1.653245              agrees
+16                 Fox News Opinion                http://www.foxnews.com/opinion.html  https://www.allsides.com/news-source/fox-news-...         right         6793            1654         4.107013   absolutely agrees
+17                  Fox Online News                            http://www.foxnews.com/  https://www.allsides.com/news-source/fox-news-...  right-center        23169           32518         0.712498  somewhat disagrees
+18                         HuffPost                     http://www.huffingtonpost.com/  https://www.allsides.com/news-source/huffpost-...          left        20979           19925         1.052898     somewhat agrees
+19                     Mother Jones                        http://www.motherjones.com/  https://www.allsides.com/news-source/mother-jo...          left         5726            1058         5.412098   absolutely agrees
+20                            MSNBC                              http://www.msnbc.com/         https://www.allsides.com/news-source/msnbc          left         5919            1985         2.981864     strongly agrees
+21                  National Review                     http://www.nationalreview.com/  https://www.allsides.com/news-source/national-...         right         9565            4508         2.121783     strongly agrees
+22                      NBCNews.com                             http://www.nbcnews.com  https://www.allsides.com/news-source/nbc-news-...   left-center         4336            5523         0.785081  somewhat disagrees
+23                    New York Post                             http://www.nypost.com/  https://www.allsides.com/news-source/new-york-...         right         3820            2616         1.460245     somewhat agrees
+24            New York Times - News                            http://www.nytimes.com/  https://www.allsides.com/news-source/new-york-...   left-center        15902           25493         0.623779           disagrees
+25         New York Times - Opinion            https://www.nytimes.com/section/opinion  https://www.allsides.com/news-source/new-york-...          left         2918             898         3.249443   absolutely agrees
+26                    NPR Editorial              https://www.npr.org/sections/opinion/  https://www.allsides.com/news-source/npr-edito...   left-center         1949            2090         0.932536  somewhat disagrees
+27                  NPR Online News                                http://www.npr.org/  https://www.allsides.com/news-source/npr-media...        center        19605           14704         1.333311     somewhat agrees
+28                         Politico                           http://www.politico.com/  https://www.allsides.com/news-source/politico-...   left-center        13937           21664         0.643325           disagrees
+29                           Reason                                 http://reason.com/        https://www.allsides.com/news-source/reason  right-center         5323            3573         1.489784     somewhat agrees
+30                          Reuters                            http://www.reuters.com/       https://www.allsides.com/news-source/reuters        center         7008            4599         1.523810              agrees
+31                            Slate                                 https://slate.com/         https://www.allsides.com/news-source/slate          left         3464            2421         1.430814     somewhat agrees
+32                     The Atlantic                        http://www.theatlantic.com/      https://www.allsides.com/news-source/atlantic   left-center         4700            2763         1.701050              agrees
+33                 The Daily Caller                            http://dailycaller.com/  https://www.allsides.com/news-source/daily-caller         right         4789            2579         1.856921              agrees
+34                   The Daily Wire                          http://www.dailywire.com/    https://www.allsides.com/news-source/daily-wire         right         2839            1379         2.058738     strongly agrees
+35                    The Economist                          http://www.economist.com/     https://www.allsides.com/news-source/economist   left-center         1673            3147         0.531617           disagrees
+36                   The Federalist                          http://thefederalist.com/    https://www.allsides.com/news-source/federalist         right         2569            1238         2.075121     strongly agrees
+37                     The Guardian                     https://www.theguardian.com/us      https://www.allsides.com/news-source/guardian   left-center         6179            3970         1.556423              agrees
+38                         The Hill                            https://www.thehill.com  https://www.allsides.com/news-source/hill-medi...        center         7608            9439         0.806018  somewhat disagrees
+39                    The Intercept                           https://theintercept.com     https://www.allsides.com/news-source/intercept          left         1270             649         1.956857              agrees
+40                   The New Yorker                         https://www.newyorker.com/    https://www.allsides.com/news-source/new-yorker          left         2578             790         3.263291   absolutely agrees
+41                     TheBlaze.com                           http://www.theblaze.com/  https://www.allsides.com/news-source/theblaze-...         right        32540           25639         1.269160     somewhat agrees
+42                    Time Magazine                          http://www.time.com/time/  https://www.allsides.com/news-source/time-maga...   left-center         4282            3569         1.199776     somewhat agrees
+43                        USA TODAY                           http://www.usatoday.com/  https://www.allsides.com/news-source/usa-today...        center        12393           10027         1.235963     somewhat agrees
+44                              Vox                                 http://www.vox.com  https://www.allsides.com/news-source/vox-news-...          left        12853           12456         1.031872     somewhat agrees
+45  Wall Street Journal - Editorial  http://online.wsj.com/public/page/news-opinion...  https://www.allsides.com/news-source/wall-stre...  right-center         5166            3786         1.364501     somewhat agrees
+46       Wall Street Journal - News                             http://online.wsj.com/  https://www.allsides.com/news-source/wall-stre...        center        12623           17953         0.703114  somewhat disagrees
+47              Washington Examiner                     http://washingtonexaminer.com/  https://www.allsides.com/news-source/washingto...  right-center         5211            2761         1.887360              agrees
+48                  Washington Post                    https://www.washingtonpost.com/  https://www.allsides.com/news-source/washingto...   left-center        24509           15362         1.595430              agrees
+49                 Washington Times                    http://www.washingtontimes.com/  https://www.allsides.com/news-source/washingto...  right-center        21262           10702         1.986731              agrees
+2019-11-08 13:36:16,820 : INFO : CSV Saved, check folder: CSV

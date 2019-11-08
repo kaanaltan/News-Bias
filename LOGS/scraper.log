@@ -1,0 +1,878 @@
+2019-11-08 12:25:11,327 : INFO : Initializing build_data function (scraper)
+2019-11-08 12:25:11,332 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:25:11,533 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:25:11,643 : DEBUG : Soup created
+2019-11-08 12:25:11,658 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 12:25:11,661 : DEBUG : Dictionary built from page: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14313, 'disagree': 9624, 'agree_ratio': 1.487219451371571, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:25:11,662 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:25:12,080 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:25:12,136 : DEBUG : Soup created
+2019-11-08 12:25:12,161 : DEBUG : Media outlet website appended to data: http://abcnews.go.com/
+2019-11-08 12:25:22,164 : DEBUG : Dictionary built from page: {'name': 'AlterNet', 'allsides_page': 'https://www.allsides.com/news-source/alternet-media-bias', 'bias': 'left', 'agree': 3612, 'disagree': 896, 'agree_ratio': 4.03125, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:25:22,165 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:25:22,895 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:25:22,935 : DEBUG : Soup created
+2019-11-08 12:25:22,954 : DEBUG : Media outlet website appended to data: http://www.alternet.org/
+2019-11-08 12:25:32,957 : DEBUG : Dictionary built from page: {'name': 'American Spectator', 'allsides_page': 'https://www.allsides.com/news-source/american-spectator', 'bias': 'right', 'agree': 7242, 'disagree': 2896, 'agree_ratio': 2.5006906077348066, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:25:32,957 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:25:33,751 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:25:33,803 : DEBUG : Soup created
+2019-11-08 12:25:33,818 : DEBUG : Media outlet website appended to data: http://spectator.org/
+2019-11-08 12:25:43,821 : DEBUG : Dictionary built from page: {'name': 'Associated Press', 'allsides_page': 'https://www.allsides.com/news-source/associated-press-media-bias', 'bias': 'center', 'agree': 8509, 'disagree': 6061, 'agree_ratio': 1.4038937469064512, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:25:43,821 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 12:25:45,002 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 12:25:45,088 : DEBUG : Soup created
+2019-11-08 12:25:45,115 : DEBUG : Media outlet website appended to data: http://www.ap.org/
+2019-11-08 12:25:55,118 : DEBUG : Dictionary built from page: {'name': 'BBC News', 'allsides_page': 'https://www.allsides.com/news-source/bbc-news-media-bias', 'bias': 'center', 'agree': 11622, 'disagree': 11365, 'agree_ratio': 1.0226132864056314, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:25:55,118 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 12:25:55,757 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 12:25:55,793 : DEBUG : Soup created
+2019-11-08 12:25:55,810 : DEBUG : Media outlet website appended to data: http://www.bbc.com/
+2019-11-08 12:26:05,813 : DEBUG : Dictionary built from page: {'name': 'Bloomberg', 'allsides_page': 'https://www.allsides.com/news-source/bloomberg-media-bias', 'bias': 'center', 'agree': 6660, 'disagree': 7883, 'agree_ratio': 0.8448560192819993, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:26:05,813 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 12:26:06,571 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 12:26:06,606 : DEBUG : Soup created
+2019-11-08 12:26:06,621 : DEBUG : Media outlet website appended to data: http://www.bloomberg.com/
+2019-11-08 12:26:16,624 : DEBUG : Dictionary built from page: {'name': 'Breitbart News', 'allsides_page': 'https://www.allsides.com/news-source/breitbart', 'bias': 'right', 'agree': 17632, 'disagree': 8188, 'agree_ratio': 2.1533952125061067, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:26:16,624 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/breitbart
+2019-11-08 12:26:17,342 : WARNING : Failed to get inner page: https://www.allsides.com/news-source/breitbart
+2019-11-08 12:26:17,345 : DEBUG : Dictionary built from page: {'name': 'BuzzFeed News', 'allsides_page': 'https://www.allsides.com/news-source/buzzfeed-media-bias', 'bias': 'left', 'agree': 6672, 'disagree': 6665, 'agree_ratio': 1.0010502625656414, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:26:17,345 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 12:26:18,292 : WARNING : Failed to get inner page: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 12:26:18,295 : DEBUG : Dictionary built from page: {'name': 'CBS News', 'allsides_page': 'https://www.allsides.com/news-source/cbs-news-media-bias', 'bias': 'left-center', 'agree': 7165, 'disagree': 5554, 'agree_ratio': 1.2900612171407995, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:26:18,295 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:26:19,094 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:26:19,130 : DEBUG : Soup created
+2019-11-08 12:26:19,145 : DEBUG : Media outlet website appended to data: http://www.cbsnews.com/
+2019-11-08 12:26:21,680 : WARNING : Failed to get inner page: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:26:21,682 : DEBUG : Dictionary built from page: {'name': 'Christian Science Monitor', 'allsides_page': 'https://www.allsides.com/news-source/christian-science-monitor', 'bias': 'center', 'agree': 9288, 'disagree': 12241, 'agree_ratio': 0.7587615390899436, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:26:21,683 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:26:22,604 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:26:22,638 : DEBUG : Soup created
+2019-11-08 12:26:22,653 : DEBUG : Media outlet website appended to data: http://www.csmonitor.com/
+2019-11-08 12:26:23,247 : WARNING : Failed to get inner page: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:26:23,249 : DEBUG : Dictionary built from page: {'name': 'CNN (Web News)', 'allsides_page': 'https://www.allsides.com/news-source/cnn-media-bias', 'bias': 'left-center', 'agree': 28103, 'disagree': 29439, 'agree_ratio': 0.9546180237100444, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:26:23,249 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:26:23,735 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:26:23,774 : DEBUG : Soup created
+2019-11-08 12:26:23,789 : DEBUG : Media outlet website appended to data: http://www.cnn.com
+2019-11-08 12:26:23,809 : WARNING : Failed to get inner page: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:26:23,811 : DEBUG : Dictionary built from page: {'name': 'CNN - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/cnn-editorial', 'bias': 'left', 'agree': 8905, 'disagree': 2495, 'agree_ratio': 3.5691382765531063, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:26:23,811 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 12:26:24,349 : WARNING : Failed to get inner page: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 12:26:24,352 : DEBUG : Dictionary built from page: {'name': 'Daily Beast', 'allsides_page': 'https://www.allsides.com/news-source/daily-beast-media-bias', 'bias': 'left', 'agree': 8027, 'disagree': 4290, 'agree_ratio': 1.871095571095571, 'agreeance_text': 'agrees'}
+2019-11-08 12:26:24,352 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 12:26:25,011 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 12:26:25,048 : DEBUG : Soup created
+2019-11-08 12:26:25,068 : DEBUG : Media outlet website appended to data: http://www.thedailybeast.com/
+2019-11-08 12:26:35,071 : DEBUG : Dictionary built from page: {'name': 'Daily Mail', 'allsides_page': 'https://www.allsides.com/news-source/daily-mail', 'bias': 'right', 'agree': 2669, 'disagree': 1964, 'agree_ratio': 1.3589613034623218, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:26:35,071 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-mail
+2019-11-08 12:26:35,614 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-mail
+2019-11-08 12:26:35,677 : DEBUG : Soup created
+2019-11-08 12:26:35,710 : DEBUG : Media outlet website appended to data: http://dailymail.co.uk
+2019-11-08 12:28:00,400 : INFO : Initializing build_data function (scraper)
+2019-11-08 12:28:00,404 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:28:00,483 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:28:00,558 : DEBUG : Soup created
+2019-11-08 12:28:00,569 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 12:28:00,572 : DEBUG : Dictionary built from page: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14313, 'disagree': 9624, 'agree_ratio': 1.487219451371571, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:28:00,573 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:28:11,065 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:28:11,097 : DEBUG : Soup created
+2019-11-08 12:28:11,112 : DEBUG : Media outlet website appended to data: http://abcnews.go.com/
+2019-11-08 12:28:11,114 : DEBUG : Dictionary built from page: {'name': 'AlterNet', 'allsides_page': 'https://www.allsides.com/news-source/alternet-media-bias', 'bias': 'left', 'agree': 3612, 'disagree': 896, 'agree_ratio': 4.03125, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:28:11,115 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:28:22,904 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:28:22,935 : DEBUG : Soup created
+2019-11-08 12:28:22,949 : DEBUG : Media outlet website appended to data: http://www.alternet.org/
+2019-11-08 12:28:22,951 : DEBUG : Dictionary built from page: {'name': 'American Spectator', 'allsides_page': 'https://www.allsides.com/news-source/american-spectator', 'bias': 'right', 'agree': 7242, 'disagree': 2896, 'agree_ratio': 2.5006906077348066, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:28:22,951 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:28:33,608 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:28:33,657 : DEBUG : Soup created
+2019-11-08 12:28:33,671 : DEBUG : Media outlet website appended to data: http://spectator.org/
+2019-11-08 12:28:33,673 : DEBUG : Dictionary built from page: {'name': 'Associated Press', 'allsides_page': 'https://www.allsides.com/news-source/associated-press-media-bias', 'bias': 'center', 'agree': 8509, 'disagree': 6061, 'agree_ratio': 1.4038937469064512, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:28:33,673 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 12:28:45,152 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 12:28:45,185 : DEBUG : Soup created
+2019-11-08 12:28:45,200 : DEBUG : Media outlet website appended to data: http://www.ap.org/
+2019-11-08 12:28:45,201 : DEBUG : Dictionary built from page: {'name': 'BBC News', 'allsides_page': 'https://www.allsides.com/news-source/bbc-news-media-bias', 'bias': 'center', 'agree': 11622, 'disagree': 11365, 'agree_ratio': 1.0226132864056314, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:28:45,202 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 12:28:55,774 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 12:28:55,807 : DEBUG : Soup created
+2019-11-08 12:28:55,822 : DEBUG : Media outlet website appended to data: http://www.bbc.com/
+2019-11-08 12:28:55,824 : DEBUG : Dictionary built from page: {'name': 'Bloomberg', 'allsides_page': 'https://www.allsides.com/news-source/bloomberg-media-bias', 'bias': 'center', 'agree': 6660, 'disagree': 7883, 'agree_ratio': 0.8448560192819993, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:28:55,824 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 12:29:07,783 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 12:29:07,816 : DEBUG : Soup created
+2019-11-08 12:29:07,830 : DEBUG : Media outlet website appended to data: http://www.bloomberg.com/
+2019-11-08 12:29:07,832 : DEBUG : Dictionary built from page: {'name': 'Breitbart News', 'allsides_page': 'https://www.allsides.com/news-source/breitbart', 'bias': 'right', 'agree': 17632, 'disagree': 8188, 'agree_ratio': 2.1533952125061067, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:29:07,832 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/breitbart
+2019-11-08 12:29:21,188 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/breitbart
+2019-11-08 12:29:21,229 : DEBUG : Soup created
+2019-11-08 12:29:21,247 : DEBUG : Media outlet website appended to data: http://www.breitbart.com/
+2019-11-08 12:29:21,249 : DEBUG : Dictionary built from page: {'name': 'BuzzFeed News', 'allsides_page': 'https://www.allsides.com/news-source/buzzfeed-media-bias', 'bias': 'left', 'agree': 6672, 'disagree': 6665, 'agree_ratio': 1.0010502625656414, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:29:21,250 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 12:29:37,524 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 12:29:37,557 : DEBUG : Soup created
+2019-11-08 12:29:37,571 : DEBUG : Media outlet website appended to data: http://buzzfeednews.com
+2019-11-08 12:29:37,573 : DEBUG : Dictionary built from page: {'name': 'CBS News', 'allsides_page': 'https://www.allsides.com/news-source/cbs-news-media-bias', 'bias': 'left-center', 'agree': 7165, 'disagree': 5554, 'agree_ratio': 1.2900612171407995, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:29:37,573 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:29:48,279 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:29:48,316 : DEBUG : Soup created
+2019-11-08 12:29:48,333 : DEBUG : Media outlet website appended to data: http://www.cbsnews.com/
+2019-11-08 12:29:48,335 : DEBUG : Dictionary built from page: {'name': 'Christian Science Monitor', 'allsides_page': 'https://www.allsides.com/news-source/christian-science-monitor', 'bias': 'center', 'agree': 9288, 'disagree': 12241, 'agree_ratio': 0.7587615390899436, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:29:48,335 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:29:59,025 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:29:59,064 : DEBUG : Soup created
+2019-11-08 12:29:59,081 : DEBUG : Media outlet website appended to data: http://www.csmonitor.com/
+2019-11-08 12:29:59,083 : DEBUG : Dictionary built from page: {'name': 'CNN (Web News)', 'allsides_page': 'https://www.allsides.com/news-source/cnn-media-bias', 'bias': 'left-center', 'agree': 28103, 'disagree': 29439, 'agree_ratio': 0.9546180237100444, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:29:59,083 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:30:09,622 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:30:09,656 : DEBUG : Soup created
+2019-11-08 12:30:09,671 : DEBUG : Media outlet website appended to data: http://www.cnn.com
+2019-11-08 12:30:09,672 : DEBUG : Dictionary built from page: {'name': 'CNN - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/cnn-editorial', 'bias': 'left', 'agree': 8905, 'disagree': 2495, 'agree_ratio': 3.5691382765531063, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:30:09,672 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 12:30:20,296 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 12:30:20,328 : DEBUG : Soup created
+2019-11-08 12:30:20,342 : DEBUG : Media outlet website appended to data: https://www.cnn.com/opinions
+2019-11-08 12:30:20,344 : DEBUG : Dictionary built from page: {'name': 'Daily Beast', 'allsides_page': 'https://www.allsides.com/news-source/daily-beast-media-bias', 'bias': 'left', 'agree': 8027, 'disagree': 4290, 'agree_ratio': 1.871095571095571, 'agreeance_text': 'agrees'}
+2019-11-08 12:30:20,344 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 12:30:32,195 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 12:30:32,233 : DEBUG : Soup created
+2019-11-08 12:30:32,251 : DEBUG : Media outlet website appended to data: http://www.thedailybeast.com/
+2019-11-08 12:30:32,253 : DEBUG : Dictionary built from page: {'name': 'Daily Mail', 'allsides_page': 'https://www.allsides.com/news-source/daily-mail', 'bias': 'right', 'agree': 2669, 'disagree': 1964, 'agree_ratio': 1.3589613034623218, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:30:32,253 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-mail
+2019-11-08 12:30:43,005 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-mail
+2019-11-08 12:30:43,037 : DEBUG : Soup created
+2019-11-08 12:30:43,052 : DEBUG : Media outlet website appended to data: http://dailymail.co.uk
+2019-11-08 12:30:43,054 : DEBUG : Dictionary built from page: {'name': 'Democracy Now', 'allsides_page': 'https://www.allsides.com/news-source/democracy-now', 'bias': 'left', 'agree': 5629, 'disagree': 1864, 'agree_ratio': 3.0198497854077253, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:30:43,054 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/democracy-now
+2019-11-08 12:30:53,741 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/democracy-now
+2019-11-08 12:30:53,773 : DEBUG : Soup created
+2019-11-08 12:30:53,787 : DEBUG : Media outlet website appended to data: http://www.democracynow.org/
+2019-11-08 12:30:53,789 : DEBUG : Dictionary built from page: {'name': 'Forbes', 'allsides_page': 'https://www.allsides.com/news-source/forbes', 'bias': 'center', 'agree': 4229, 'disagree': 2558, 'agree_ratio': 1.6532447224394058, 'agreeance_text': 'agrees'}
+2019-11-08 12:30:53,789 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/forbes
+2019-11-08 12:31:04,581 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/forbes
+2019-11-08 12:31:04,647 : DEBUG : Soup created
+2019-11-08 12:31:04,661 : DEBUG : Media outlet website appended to data: http://www.forbes.com/
+2019-11-08 12:31:04,663 : DEBUG : Dictionary built from page: {'name': 'Fox News Opinion', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-editorial-media-bias', 'bias': 'right', 'agree': 6792, 'disagree': 1654, 'agree_ratio': 4.106408706166868, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:31:04,663 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 12:31:15,237 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 12:31:15,269 : DEBUG : Soup created
+2019-11-08 12:31:15,284 : DEBUG : Media outlet website appended to data: http://www.foxnews.com/opinion.html
+2019-11-08 12:31:15,285 : DEBUG : Dictionary built from page: {'name': 'Fox Online News', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-media-bias', 'bias': 'right-center', 'agree': 23168, 'disagree': 32517, 'agree_ratio': 0.7124888519851155, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:31:15,285 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 12:31:25,841 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 12:31:25,873 : DEBUG : Soup created
+2019-11-08 12:31:25,890 : DEBUG : Media outlet website appended to data: http://www.foxnews.com/
+2019-11-08 12:31:25,892 : DEBUG : Dictionary built from page: {'name': 'HuffPost', 'allsides_page': 'https://www.allsides.com/news-source/huffpost-media-bias', 'bias': 'left', 'agree': 20979, 'disagree': 19925, 'agree_ratio': 1.0528983688833125, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:31:25,892 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 12:31:37,112 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 12:31:37,143 : DEBUG : Soup created
+2019-11-08 12:31:37,158 : DEBUG : Media outlet website appended to data: http://www.huffingtonpost.com/
+2019-11-08 12:31:37,159 : DEBUG : Dictionary built from page: {'name': 'Mother Jones', 'allsides_page': 'https://www.allsides.com/news-source/mother-jones-bias', 'bias': 'left', 'agree': 5726, 'disagree': 1058, 'agree_ratio': 5.4120982986767485, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:31:37,160 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 12:31:48,069 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 12:31:48,102 : DEBUG : Soup created
+2019-11-08 12:31:48,117 : DEBUG : Media outlet website appended to data: http://www.motherjones.com/
+2019-11-08 12:31:58,118 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings?page=1
+2019-11-08 12:31:59,100 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings?page=1
+2019-11-08 12:31:59,162 : DEBUG : Soup created
+2019-11-08 12:31:59,171 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 12:31:59,172 : DEBUG : Dictionary built from page: {'name': 'MSNBC', 'allsides_page': 'https://www.allsides.com/news-source/msnbc', 'bias': 'left', 'agree': 5918, 'disagree': 1985, 'agree_ratio': 2.981360201511335, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:31:59,173 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/msnbc
+2019-11-08 12:32:10,044 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/msnbc
+2019-11-08 12:32:10,091 : DEBUG : Soup created
+2019-11-08 12:32:10,113 : DEBUG : Media outlet website appended to data: http://www.msnbc.com/
+2019-11-08 12:32:10,116 : DEBUG : Dictionary built from page: {'name': 'National Review', 'allsides_page': 'https://www.allsides.com/news-source/national-review', 'bias': 'right', 'agree': 9563, 'disagree': 4508, 'agree_ratio': 2.1213398402839396, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:32:10,116 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/national-review
+2019-11-08 12:32:23,088 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/national-review
+2019-11-08 12:32:23,158 : DEBUG : Soup created
+2019-11-08 12:32:23,185 : DEBUG : Media outlet website appended to data: http://www.nationalreview.com/
+2019-11-08 12:32:23,187 : DEBUG : Dictionary built from page: {'name': 'NBCNews.com', 'allsides_page': 'https://www.allsides.com/news-source/nbc-news-media-bias', 'bias': 'left-center', 'agree': 4336, 'disagree': 5523, 'agree_ratio': 0.7850805721528155, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:32:23,188 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/nbc-news-media-bias
+2019-11-08 12:32:34,163 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/nbc-news-media-bias
+2019-11-08 12:32:34,205 : DEBUG : Soup created
+2019-11-08 12:32:34,224 : DEBUG : Media outlet website appended to data: http://www.nbcnews.com
+2019-11-08 12:32:34,226 : DEBUG : Dictionary built from page: {'name': 'New York Post', 'allsides_page': 'https://www.allsides.com/news-source/new-york-post', 'bias': 'right', 'agree': 3820, 'disagree': 2616, 'agree_ratio': 1.460244648318043, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:32:34,227 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-post
+2019-11-08 12:32:45,212 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-post
+2019-11-08 12:32:45,246 : DEBUG : Soup created
+2019-11-08 12:32:45,262 : DEBUG : Media outlet website appended to data: http://www.nypost.com/
+2019-11-08 12:32:45,264 : DEBUG : Dictionary built from page: {'name': 'New York Times - News', 'allsides_page': 'https://www.allsides.com/news-source/new-york-times', 'bias': 'left-center', 'agree': 15900, 'disagree': 25493, 'agree_ratio': 0.6237006237006237, 'agreeance_text': 'disagrees'}
+2019-11-08 12:32:45,264 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-times
+2019-11-08 12:32:56,395 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-times
+2019-11-08 12:32:56,427 : DEBUG : Soup created
+2019-11-08 12:32:56,442 : DEBUG : Media outlet website appended to data: http://www.nytimes.com/
+2019-11-08 12:32:56,444 : DEBUG : Dictionary built from page: {'name': 'New York Times - Opinion', 'allsides_page': 'https://www.allsides.com/news-source/new-york-times-opinion-media-bias', 'bias': 'left', 'agree': 2916, 'disagree': 898, 'agree_ratio': 3.247216035634744, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:32:56,444 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-times-opinion-media-bias
+2019-11-08 12:33:07,555 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-times-opinion-media-bias
+2019-11-08 12:33:07,611 : DEBUG : Soup created
+2019-11-08 12:33:07,645 : DEBUG : Media outlet website appended to data: https://www.nytimes.com/section/opinion
+2019-11-08 12:33:07,648 : DEBUG : Dictionary built from page: {'name': 'NPR Editorial', 'allsides_page': 'https://www.allsides.com/news-source/npr-editorial', 'bias': 'left-center', 'agree': 1949, 'disagree': 2090, 'agree_ratio': 0.9325358851674641, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:33:07,648 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/npr-editorial
+2019-11-08 12:33:18,819 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/npr-editorial
+2019-11-08 12:33:18,935 : DEBUG : Soup created
+2019-11-08 12:33:18,964 : DEBUG : Media outlet website appended to data: https://www.npr.org/sections/opinion/
+2019-11-08 12:33:18,967 : DEBUG : Dictionary built from page: {'name': 'NPR Online News', 'allsides_page': 'https://www.allsides.com/news-source/npr-media-bias', 'bias': 'center', 'agree': 19605, 'disagree': 14703, 'agree_ratio': 1.333401346663946, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:33:18,967 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/npr-media-bias
+2019-11-08 12:33:29,638 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/npr-media-bias
+2019-11-08 12:33:29,726 : DEBUG : Soup created
+2019-11-08 12:33:29,788 : DEBUG : Media outlet website appended to data: http://www.npr.org/
+2019-11-08 12:33:29,791 : DEBUG : Dictionary built from page: {'name': 'Politico', 'allsides_page': 'https://www.allsides.com/news-source/politico-media-bias', 'bias': 'left-center', 'agree': 13937, 'disagree': 21664, 'agree_ratio': 0.6433253323485968, 'agreeance_text': 'disagrees'}
+2019-11-08 12:33:29,791 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/politico-media-bias
+2019-11-08 12:33:40,412 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/politico-media-bias
+2019-11-08 12:33:40,483 : DEBUG : Soup created
+2019-11-08 12:33:40,526 : DEBUG : Media outlet website appended to data: http://www.politico.com/
+2019-11-08 12:33:40,531 : DEBUG : Dictionary built from page: {'name': 'Reason', 'allsides_page': 'https://www.allsides.com/news-source/reason', 'bias': 'right-center', 'agree': 5323, 'disagree': 3573, 'agree_ratio': 1.4897844948222783, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:33:40,531 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/reason
+2019-11-08 12:33:51,379 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/reason
+2019-11-08 12:33:51,418 : DEBUG : Soup created
+2019-11-08 12:33:51,435 : DEBUG : Media outlet website appended to data: http://reason.com/
+2019-11-08 12:33:51,437 : DEBUG : Dictionary built from page: {'name': 'Reuters', 'allsides_page': 'https://www.allsides.com/news-source/reuters', 'bias': 'center', 'agree': 7008, 'disagree': 4599, 'agree_ratio': 1.5238095238095237, 'agreeance_text': 'agrees'}
+2019-11-08 12:33:51,438 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/reuters
+2019-11-08 12:34:01,955 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/reuters
+2019-11-08 12:34:01,986 : DEBUG : Soup created
+2019-11-08 12:34:02,001 : DEBUG : Media outlet website appended to data: http://www.reuters.com/
+2019-11-08 12:34:02,003 : DEBUG : Dictionary built from page: {'name': 'Slate', 'allsides_page': 'https://www.allsides.com/news-source/slate', 'bias': 'left', 'agree': 3463, 'disagree': 2421, 'agree_ratio': 1.4304006608839324, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:34:02,003 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/slate
+2019-11-08 12:34:12,492 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/slate
+2019-11-08 12:34:12,529 : DEBUG : Soup created
+2019-11-08 12:34:12,547 : DEBUG : Media outlet website appended to data: https://slate.com/
+2019-11-08 12:34:12,549 : DEBUG : Dictionary built from page: {'name': 'The Atlantic', 'allsides_page': 'https://www.allsides.com/news-source/atlantic', 'bias': 'left-center', 'agree': 4700, 'disagree': 2763, 'agree_ratio': 1.7010495837857402, 'agreeance_text': 'agrees'}
+2019-11-08 12:34:12,549 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/atlantic
+2019-11-08 12:34:23,187 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/atlantic
+2019-11-08 12:34:23,218 : DEBUG : Soup created
+2019-11-08 12:34:23,232 : DEBUG : Media outlet website appended to data: http://www.theatlantic.com/
+2019-11-08 12:34:23,234 : DEBUG : Dictionary built from page: {'name': 'The Daily Caller', 'allsides_page': 'https://www.allsides.com/news-source/daily-caller', 'bias': 'right', 'agree': 4789, 'disagree': 2579, 'agree_ratio': 1.8569212873206669, 'agreeance_text': 'agrees'}
+2019-11-08 12:34:23,234 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-caller
+2019-11-08 12:34:33,931 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-caller
+2019-11-08 12:34:33,964 : DEBUG : Soup created
+2019-11-08 12:34:33,980 : DEBUG : Media outlet website appended to data: http://dailycaller.com/
+2019-11-08 12:34:33,982 : DEBUG : Dictionary built from page: {'name': 'The Daily Wire', 'allsides_page': 'https://www.allsides.com/news-source/daily-wire', 'bias': 'right', 'agree': 2839, 'disagree': 1379, 'agree_ratio': 2.058738216098622, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:34:33,982 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-wire
+2019-11-08 12:34:44,663 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-wire
+2019-11-08 12:34:44,695 : DEBUG : Soup created
+2019-11-08 12:34:44,709 : DEBUG : Media outlet website appended to data: http://www.dailywire.com/
+2019-11-08 12:34:44,711 : DEBUG : Dictionary built from page: {'name': 'The Economist', 'allsides_page': 'https://www.allsides.com/news-source/economist', 'bias': 'left-center', 'agree': 1673, 'disagree': 3147, 'agree_ratio': 0.5316174134095965, 'agreeance_text': 'disagrees'}
+2019-11-08 12:34:44,711 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/economist
+2019-11-08 12:34:55,399 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/economist
+2019-11-08 12:34:55,433 : DEBUG : Soup created
+2019-11-08 12:34:55,449 : DEBUG : Media outlet website appended to data: http://www.economist.com/
+2019-11-08 12:34:55,450 : DEBUG : Dictionary built from page: {'name': 'The Federalist', 'allsides_page': 'https://www.allsides.com/news-source/federalist', 'bias': 'right', 'agree': 2569, 'disagree': 1238, 'agree_ratio': 2.0751211631663975, 'agreeance_text': 'strongly agrees'}
+2019-11-08 12:34:55,450 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/federalist
+2019-11-08 12:35:06,140 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/federalist
+2019-11-08 12:35:06,174 : DEBUG : Soup created
+2019-11-08 12:35:06,189 : DEBUG : Media outlet website appended to data: http://thefederalist.com/
+2019-11-08 12:35:06,190 : DEBUG : Dictionary built from page: {'name': 'The Guardian', 'allsides_page': 'https://www.allsides.com/news-source/guardian', 'bias': 'left-center', 'agree': 6179, 'disagree': 3970, 'agree_ratio': 1.5564231738035263, 'agreeance_text': 'agrees'}
+2019-11-08 12:35:06,190 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/guardian
+2019-11-08 12:35:17,535 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/guardian
+2019-11-08 12:35:17,567 : DEBUG : Soup created
+2019-11-08 12:35:17,582 : DEBUG : Media outlet website appended to data: https://www.theguardian.com/us
+2019-11-08 12:35:17,583 : DEBUG : Dictionary built from page: {'name': 'The Hill', 'allsides_page': 'https://www.allsides.com/news-source/hill-media-bias', 'bias': 'center', 'agree': 7608, 'disagree': 9439, 'agree_ratio': 0.8060175866087509, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:35:17,583 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/hill-media-bias
+2019-11-08 12:35:28,042 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/hill-media-bias
+2019-11-08 12:35:28,072 : DEBUG : Soup created
+2019-11-08 12:35:28,086 : DEBUG : Media outlet website appended to data: https://www.thehill.com
+2019-11-08 12:35:28,088 : DEBUG : Dictionary built from page: {'name': 'The Intercept', 'allsides_page': 'https://www.allsides.com/news-source/intercept', 'bias': 'left', 'agree': 1270, 'disagree': 649, 'agree_ratio': 1.9568567026194146, 'agreeance_text': 'agrees'}
+2019-11-08 12:35:28,088 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/intercept
+2019-11-08 12:35:38,974 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/intercept
+2019-11-08 12:35:39,042 : DEBUG : Soup created
+2019-11-08 12:35:39,057 : DEBUG : Media outlet website appended to data: https://theintercept.com
+2019-11-08 12:35:49,058 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings?page=2
+2019-11-08 12:35:49,327 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings?page=2
+2019-11-08 12:35:49,371 : DEBUG : Soup created
+2019-11-08 12:35:49,376 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 12:35:49,378 : DEBUG : Dictionary built from page: {'name': 'The New Yorker', 'allsides_page': 'https://www.allsides.com/news-source/new-yorker', 'bias': 'left', 'agree': 2578, 'disagree': 790, 'agree_ratio': 3.2632911392405064, 'agreeance_text': 'absolutely agrees'}
+2019-11-08 12:35:49,378 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-yorker
+2019-11-08 12:36:00,160 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-yorker
+2019-11-08 12:36:00,193 : DEBUG : Soup created
+2019-11-08 12:36:00,206 : DEBUG : Media outlet website appended to data: https://www.newyorker.com/
+2019-11-08 12:36:00,208 : DEBUG : Dictionary built from page: {'name': 'TheBlaze.com', 'allsides_page': 'https://www.allsides.com/news-source/theblaze-bias', 'bias': 'right', 'agree': 32532, 'disagree': 25628, 'agree_ratio': 1.2693928515685968, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:36:00,208 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/theblaze-bias
+2019-11-08 12:36:10,814 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/theblaze-bias
+2019-11-08 12:36:10,845 : DEBUG : Soup created
+2019-11-08 12:36:10,859 : DEBUG : Media outlet website appended to data: http://www.theblaze.com/
+2019-11-08 12:36:10,861 : DEBUG : Dictionary built from page: {'name': 'Time Magazine', 'allsides_page': 'https://www.allsides.com/news-source/time-magazine-news-media-bias', 'bias': 'left-center', 'agree': 4282, 'disagree': 3568, 'agree_ratio': 1.2001121076233183, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:36:10,861 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/time-magazine-news-media-bias
+2019-11-08 12:36:21,620 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/time-magazine-news-media-bias
+2019-11-08 12:36:21,652 : DEBUG : Soup created
+2019-11-08 12:36:21,668 : DEBUG : Media outlet website appended to data: http://www.time.com/time/
+2019-11-08 12:36:21,669 : DEBUG : Dictionary built from page: {'name': 'USA TODAY', 'allsides_page': 'https://www.allsides.com/news-source/usa-today-media-bias', 'bias': 'center', 'agree': 12392, 'disagree': 10026, 'agree_ratio': 1.2359864352683023, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:36:21,669 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/usa-today-media-bias
+2019-11-08 12:36:33,075 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/usa-today-media-bias
+2019-11-08 12:36:33,107 : DEBUG : Soup created
+2019-11-08 12:36:33,122 : DEBUG : Media outlet website appended to data: http://www.usatoday.com/
+2019-11-08 12:36:33,124 : DEBUG : Dictionary built from page: {'name': 'Vox', 'allsides_page': 'https://www.allsides.com/news-source/vox-news-media-bias', 'bias': 'left', 'agree': 12853, 'disagree': 12455, 'agree_ratio': 1.0319550381372942, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:36:33,124 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/vox-news-media-bias
+2019-11-08 12:36:44,003 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/vox-news-media-bias
+2019-11-08 12:36:44,034 : DEBUG : Soup created
+2019-11-08 12:36:44,049 : DEBUG : Media outlet website appended to data: http://www.vox.com
+2019-11-08 12:36:44,050 : DEBUG : Dictionary built from page: {'name': 'Wall Street Journal - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/wall-street-journal-opinion', 'bias': 'right-center', 'agree': 5165, 'disagree': 3786, 'agree_ratio': 1.3642366613840464, 'agreeance_text': 'somewhat agrees'}
+2019-11-08 12:36:44,050 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/wall-street-journal-opinion
+2019-11-08 12:36:54,924 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/wall-street-journal-opinion
+2019-11-08 12:36:54,956 : DEBUG : Soup created
+2019-11-08 12:36:54,970 : DEBUG : Media outlet website appended to data: http://online.wsj.com/public/page/news-opinion-commentary.html
+2019-11-08 12:36:54,971 : DEBUG : Dictionary built from page: {'name': 'Wall Street Journal - News', 'allsides_page': 'https://www.allsides.com/news-source/wall-street-journal-media-bias', 'bias': 'center', 'agree': 12622, 'disagree': 17953, 'agree_ratio': 0.7030579847379268, 'agreeance_text': 'somewhat disagrees'}
+2019-11-08 12:36:54,971 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/wall-street-journal-media-bias
+2019-11-08 12:37:05,561 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/wall-street-journal-media-bias
+2019-11-08 12:37:05,598 : DEBUG : Soup created
+2019-11-08 12:37:05,629 : DEBUG : Media outlet website appended to data: http://online.wsj.com/
+2019-11-08 12:37:05,631 : DEBUG : Dictionary built from page: {'name': 'Washington Examiner', 'allsides_page': 'https://www.allsides.com/news-source/washington-examiner', 'bias': 'right-center', 'agree': 5210, 'disagree': 2761, 'agree_ratio': 1.8869974646867078, 'agreeance_text': 'agrees'}
+2019-11-08 12:37:05,631 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-examiner
+2019-11-08 12:37:16,149 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-examiner
+2019-11-08 12:37:16,181 : DEBUG : Soup created
+2019-11-08 12:37:16,196 : DEBUG : Media outlet website appended to data: http://washingtonexaminer.com/
+2019-11-08 12:37:16,198 : DEBUG : Dictionary built from page: {'name': 'Washington Post', 'allsides_page': 'https://www.allsides.com/news-source/washington-post-media-bias', 'bias': 'left-center', 'agree': 24506, 'disagree': 15362, 'agree_ratio': 1.5952349954433016, 'agreeance_text': 'agrees'}
+2019-11-08 12:37:16,198 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-post-media-bias
+2019-11-08 12:37:26,653 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-post-media-bias
+2019-11-08 12:37:26,686 : DEBUG : Soup created
+2019-11-08 12:37:26,701 : DEBUG : Media outlet website appended to data: https://www.washingtonpost.com/
+2019-11-08 12:37:26,703 : DEBUG : Dictionary built from page: {'name': 'Washington Times', 'allsides_page': 'https://www.allsides.com/news-source/washington-times-bias', 'bias': 'right-center', 'agree': 21262, 'disagree': 10702, 'agree_ratio': 1.9867314520650345, 'agreeance_text': 'agrees'}
+2019-11-08 12:37:26,703 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-times-bias
+2019-11-08 12:37:37,456 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-times-bias
+2019-11-08 12:37:37,488 : DEBUG : Soup created
+2019-11-08 12:37:37,503 : DEBUG : Media outlet website appended to data: http://www.washingtontimes.com/
+2019-11-08 12:37:47,505 : INFO : Scraping complete
+2019-11-08 12:44:52,246 : INFO : Initializing build_data function (scraper)
+2019-11-08 12:44:52,254 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:44:52,446 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:44:52,603 : DEBUG : Soup created
+2019-11-08 12:44:52,632 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 12:44:52,640 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:45:03,430 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:45:03,498 : DEBUG : Inner page soup created
+2019-11-08 12:45:03,539 : DEBUG : Dictionary complete: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14313, 'disagree': 9624, 'agree_ratio': 1.487219451371571, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://abcnews.go.com/'}
+2019-11-08 12:45:03,545 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:45:14,279 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:45:14,316 : DEBUG : Inner page soup created
+2019-11-08 12:45:14,334 : DEBUG : Dictionary complete: {'name': 'AlterNet', 'allsides_page': 'https://www.allsides.com/news-source/alternet-media-bias', 'bias': 'left', 'agree': 3612, 'disagree': 896, 'agree_ratio': 4.03125, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.alternet.org/'}
+2019-11-08 12:45:14,337 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:45:25,348 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:45:25,401 : DEBUG : Inner page soup created
+2019-11-08 12:45:25,417 : DEBUG : Dictionary complete: {'name': 'American Spectator', 'allsides_page': 'https://www.allsides.com/news-source/american-spectator', 'bias': 'right', 'agree': 7242, 'disagree': 2896, 'agree_ratio': 2.5006906077348066, 'agreeance_text': 'strongly agrees', 'news_page': 'http://spectator.org/'}
+2019-11-08 12:45:25,420 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 12:45:36,110 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 12:45:36,143 : DEBUG : Inner page soup created
+2019-11-08 12:45:36,159 : DEBUG : Dictionary complete: {'name': 'Associated Press', 'allsides_page': 'https://www.allsides.com/news-source/associated-press-media-bias', 'bias': 'center', 'agree': 8509, 'disagree': 6061, 'agree_ratio': 1.4038937469064512, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.ap.org/'}
+2019-11-08 12:45:36,161 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 12:45:47,581 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 12:45:47,622 : DEBUG : Inner page soup created
+2019-11-08 12:45:47,638 : DEBUG : Dictionary complete: {'name': 'BBC News', 'allsides_page': 'https://www.allsides.com/news-source/bbc-news-media-bias', 'bias': 'center', 'agree': 11622, 'disagree': 11365, 'agree_ratio': 1.0226132864056314, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.bbc.com/'}
+2019-11-08 12:45:47,640 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 12:45:59,036 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 12:45:59,068 : DEBUG : Inner page soup created
+2019-11-08 12:45:59,083 : DEBUG : Dictionary complete: {'name': 'Bloomberg', 'allsides_page': 'https://www.allsides.com/news-source/bloomberg-media-bias', 'bias': 'center', 'agree': 6660, 'disagree': 7883, 'agree_ratio': 0.8448560192819993, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.bloomberg.com/'}
+2019-11-08 12:45:59,087 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/breitbart
+2019-11-08 12:46:10,423 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/breitbart
+2019-11-08 12:46:10,455 : DEBUG : Inner page soup created
+2019-11-08 12:46:10,470 : DEBUG : Dictionary complete: {'name': 'Breitbart News', 'allsides_page': 'https://www.allsides.com/news-source/breitbart', 'bias': 'right', 'agree': 17632, 'disagree': 8188, 'agree_ratio': 2.1533952125061067, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.breitbart.com/'}
+2019-11-08 12:46:10,472 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 12:46:21,145 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 12:46:21,175 : DEBUG : Inner page soup created
+2019-11-08 12:46:21,190 : DEBUG : Dictionary complete: {'name': 'BuzzFeed News', 'allsides_page': 'https://www.allsides.com/news-source/buzzfeed-media-bias', 'bias': 'left', 'agree': 6672, 'disagree': 6665, 'agree_ratio': 1.0010502625656414, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://buzzfeednews.com'}
+2019-11-08 12:46:21,193 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:46:31,861 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 12:46:31,892 : DEBUG : Inner page soup created
+2019-11-08 12:46:31,909 : DEBUG : Dictionary complete: {'name': 'CBS News', 'allsides_page': 'https://www.allsides.com/news-source/cbs-news-media-bias', 'bias': 'left-center', 'agree': 7165, 'disagree': 5554, 'agree_ratio': 1.2900612171407995, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.cbsnews.com/'}
+2019-11-08 12:46:31,911 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:46:42,579 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 12:46:42,610 : DEBUG : Inner page soup created
+2019-11-08 12:46:42,625 : DEBUG : Dictionary complete: {'name': 'Christian Science Monitor', 'allsides_page': 'https://www.allsides.com/news-source/christian-science-monitor', 'bias': 'center', 'agree': 9288, 'disagree': 12241, 'agree_ratio': 0.7587615390899436, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.csmonitor.com/'}
+2019-11-08 12:46:42,627 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:46:53,872 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 12:46:53,906 : DEBUG : Inner page soup created
+2019-11-08 12:46:53,921 : DEBUG : Dictionary complete: {'name': 'CNN (Web News)', 'allsides_page': 'https://www.allsides.com/news-source/cnn-media-bias', 'bias': 'left-center', 'agree': 28103, 'disagree': 29439, 'agree_ratio': 0.9546180237100444, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.cnn.com'}
+2019-11-08 12:46:53,923 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 12:47:04,472 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 12:47:04,504 : DEBUG : Inner page soup created
+2019-11-08 12:47:04,518 : DEBUG : Dictionary complete: {'name': 'CNN - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/cnn-editorial', 'bias': 'left', 'agree': 8906, 'disagree': 2495, 'agree_ratio': 3.5695390781563128, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.cnn.com/opinions'}
+2019-11-08 12:47:04,520 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 12:47:15,051 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 12:47:15,082 : DEBUG : Inner page soup created
+2019-11-08 12:47:15,098 : DEBUG : Dictionary complete: {'name': 'Daily Beast', 'allsides_page': 'https://www.allsides.com/news-source/daily-beast-media-bias', 'bias': 'left', 'agree': 8027, 'disagree': 4290, 'agree_ratio': 1.871095571095571, 'agreeance_text': 'agrees', 'news_page': 'http://www.thedailybeast.com/'}
+2019-11-08 12:47:15,102 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-mail
+2019-11-08 12:47:25,939 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-mail
+2019-11-08 12:47:25,977 : DEBUG : Inner page soup created
+2019-11-08 12:47:25,993 : DEBUG : Dictionary complete: {'name': 'Daily Mail', 'allsides_page': 'https://www.allsides.com/news-source/daily-mail', 'bias': 'right', 'agree': 2669, 'disagree': 1964, 'agree_ratio': 1.3589613034623218, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://dailymail.co.uk'}
+2019-11-08 12:47:25,995 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/democracy-now
+2019-11-08 12:47:36,967 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/democracy-now
+2019-11-08 12:47:36,998 : DEBUG : Inner page soup created
+2019-11-08 12:47:37,013 : DEBUG : Dictionary complete: {'name': 'Democracy Now', 'allsides_page': 'https://www.allsides.com/news-source/democracy-now', 'bias': 'left', 'agree': 5629, 'disagree': 1864, 'agree_ratio': 3.0198497854077253, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.democracynow.org/'}
+2019-11-08 12:47:37,016 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/forbes
+2019-11-08 12:47:48,082 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/forbes
+2019-11-08 12:47:48,151 : DEBUG : Inner page soup created
+2019-11-08 12:47:48,165 : DEBUG : Dictionary complete: {'name': 'Forbes', 'allsides_page': 'https://www.allsides.com/news-source/forbes', 'bias': 'center', 'agree': 4229, 'disagree': 2558, 'agree_ratio': 1.6532447224394058, 'agreeance_text': 'agrees', 'news_page': 'http://www.forbes.com/'}
+2019-11-08 12:47:48,167 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 12:47:58,872 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 12:47:58,904 : DEBUG : Inner page soup created
+2019-11-08 12:47:58,921 : DEBUG : Dictionary complete: {'name': 'Fox News Opinion', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-editorial-media-bias', 'bias': 'right', 'agree': 6792, 'disagree': 1654, 'agree_ratio': 4.106408706166868, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.foxnews.com/opinion.html'}
+2019-11-08 12:47:58,924 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 12:48:09,702 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 12:48:09,734 : DEBUG : Inner page soup created
+2019-11-08 12:48:09,750 : DEBUG : Dictionary complete: {'name': 'Fox Online News', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-media-bias', 'bias': 'right-center', 'agree': 23168, 'disagree': 32517, 'agree_ratio': 0.7124888519851155, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.foxnews.com/'}
+2019-11-08 12:48:09,752 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 12:48:20,213 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 12:48:20,244 : DEBUG : Inner page soup created
+2019-11-08 12:48:20,259 : DEBUG : Dictionary complete: {'name': 'HuffPost', 'allsides_page': 'https://www.allsides.com/news-source/huffpost-media-bias', 'bias': 'left', 'agree': 20979, 'disagree': 19925, 'agree_ratio': 1.0528983688833125, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.huffingtonpost.com/'}
+2019-11-08 12:48:20,262 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 12:48:31,405 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 12:48:31,438 : DEBUG : Inner page soup created
+2019-11-08 12:48:31,452 : DEBUG : Dictionary complete: {'name': 'Mother Jones', 'allsides_page': 'https://www.allsides.com/news-source/mother-jones-bias', 'bias': 'left', 'agree': 5726, 'disagree': 1058, 'agree_ratio': 5.4120982986767485, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.motherjones.com/'}
+2019-11-08 12:48:41,454 : INFO : Scraping complete
+2019-11-08 12:56:42,623 : INFO : Initializing build_data function (scraper)
+2019-11-08 12:56:42,629 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:56:42,829 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 12:56:43,027 : DEBUG : Soup created
+2019-11-08 12:56:43,047 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 12:56:43,054 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:56:53,607 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 12:56:53,640 : DEBUG : Inner page soup created
+2019-11-08 12:56:53,655 : DEBUG : Dictionary complete: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14313, 'disagree': 9624, 'agree_ratio': 1.487219451371571, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://abcnews.go.com/'}
+2019-11-08 12:56:53,658 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:57:04,640 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 12:57:04,671 : DEBUG : Inner page soup created
+2019-11-08 12:57:04,685 : DEBUG : Dictionary complete: {'name': 'AlterNet', 'allsides_page': 'https://www.allsides.com/news-source/alternet-media-bias', 'bias': 'left', 'agree': 3612, 'disagree': 896, 'agree_ratio': 4.03125, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.alternet.org/'}
+2019-11-08 12:57:04,687 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:57:16,388 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/american-spectator
+2019-11-08 12:57:16,460 : DEBUG : Inner page soup created
+2019-11-08 12:57:16,480 : DEBUG : Dictionary complete: {'name': 'American Spectator', 'allsides_page': 'https://www.allsides.com/news-source/american-spectator', 'bias': 'right', 'agree': 7242, 'disagree': 2896, 'agree_ratio': 2.5006906077348066, 'agreeance_text': 'strongly agrees', 'news_page': 'http://spectator.org/'}
+2019-11-08 12:58:27,816 : INFO : Scraping complete
+2019-11-08 13:03:46,998 : INFO : Initializing build_data function (scraper)
+2019-11-08 13:03:47,006 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 13:03:47,233 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 13:03:47,399 : DEBUG : Soup created
+2019-11-08 13:03:47,424 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:03:47,429 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 13:03:58,190 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 13:03:58,228 : DEBUG : Inner page soup created
+2019-11-08 13:03:58,245 : DEBUG : Dictionary complete: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14314, 'disagree': 9624, 'agree_ratio': 1.4873233582709893, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://abcnews.go.com/'}
+2019-11-08 13:04:08,247 : INFO : Scraping complete
+2019-11-08 13:09:36,923 : INFO : Initializing build_data function (scraper)
+2019-11-08 13:09:36,930 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 13:09:37,245 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 13:09:37,376 : DEBUG : Soup created
+2019-11-08 13:09:37,390 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:09:37,398 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 13:09:47,980 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 13:09:48,041 : DEBUG : Inner page soup created
+2019-11-08 13:09:48,069 : DEBUG : Dictionary complete: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14314, 'disagree': 9624, 'agree_ratio': 1.4873233582709893, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://abcnews.go.com/'}
+2019-11-08 13:09:48,074 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 13:09:58,836 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 13:09:58,885 : DEBUG : Inner page soup created
+2019-11-08 13:09:58,911 : DEBUG : Dictionary complete: {'name': 'AlterNet', 'allsides_page': 'https://www.allsides.com/news-source/alternet-media-bias', 'bias': 'left', 'agree': 3613, 'disagree': 896, 'agree_ratio': 4.032366071428571, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.alternet.org/'}
+2019-11-08 13:09:58,915 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/american-spectator
+2019-11-08 13:10:09,682 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/american-spectator
+2019-11-08 13:10:09,747 : DEBUG : Inner page soup created
+2019-11-08 13:10:09,767 : DEBUG : Dictionary complete: {'name': 'American Spectator', 'allsides_page': 'https://www.allsides.com/news-source/american-spectator', 'bias': 'right', 'agree': 7242, 'disagree': 2896, 'agree_ratio': 2.5006906077348066, 'agreeance_text': 'strongly agrees', 'news_page': 'http://spectator.org/'}
+2019-11-08 13:10:09,770 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 13:10:21,179 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 13:10:21,215 : DEBUG : Inner page soup created
+2019-11-08 13:10:21,231 : DEBUG : Dictionary complete: {'name': 'Associated Press', 'allsides_page': 'https://www.allsides.com/news-source/associated-press-media-bias', 'bias': 'center', 'agree': 8509, 'disagree': 6061, 'agree_ratio': 1.4038937469064512, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.ap.org/'}
+2019-11-08 13:10:21,234 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 13:10:31,799 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 13:10:31,830 : DEBUG : Inner page soup created
+2019-11-08 13:10:31,845 : DEBUG : Dictionary complete: {'name': 'BBC News', 'allsides_page': 'https://www.allsides.com/news-source/bbc-news-media-bias', 'bias': 'center', 'agree': 11622, 'disagree': 11365, 'agree_ratio': 1.0226132864056314, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.bbc.com/'}
+2019-11-08 13:10:31,848 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 13:10:42,426 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 13:10:42,459 : DEBUG : Inner page soup created
+2019-11-08 13:10:42,472 : DEBUG : Dictionary complete: {'name': 'Bloomberg', 'allsides_page': 'https://www.allsides.com/news-source/bloomberg-media-bias', 'bias': 'center', 'agree': 6660, 'disagree': 7883, 'agree_ratio': 0.8448560192819993, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.bloomberg.com/'}
+2019-11-08 13:10:42,475 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/breitbart
+2019-11-08 13:10:53,296 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/breitbart
+2019-11-08 13:10:53,327 : DEBUG : Inner page soup created
+2019-11-08 13:10:53,342 : DEBUG : Dictionary complete: {'name': 'Breitbart News', 'allsides_page': 'https://www.allsides.com/news-source/breitbart', 'bias': 'right', 'agree': 17632, 'disagree': 8188, 'agree_ratio': 2.1533952125061067, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.breitbart.com/'}
+2019-11-08 13:10:53,346 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 13:11:04,536 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 13:11:04,567 : DEBUG : Inner page soup created
+2019-11-08 13:11:04,580 : DEBUG : Dictionary complete: {'name': 'BuzzFeed News', 'allsides_page': 'https://www.allsides.com/news-source/buzzfeed-media-bias', 'bias': 'left', 'agree': 6672, 'disagree': 6665, 'agree_ratio': 1.0010502625656414, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://buzzfeednews.com'}
+2019-11-08 13:11:04,583 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 13:11:15,407 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 13:11:15,439 : DEBUG : Inner page soup created
+2019-11-08 13:11:15,452 : DEBUG : Dictionary complete: {'name': 'CBS News', 'allsides_page': 'https://www.allsides.com/news-source/cbs-news-media-bias', 'bias': 'left-center', 'agree': 7165, 'disagree': 5554, 'agree_ratio': 1.2900612171407995, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.cbsnews.com/'}
+2019-11-08 13:11:15,456 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 13:11:26,255 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 13:11:26,283 : DEBUG : Inner page soup created
+2019-11-08 13:11:26,297 : DEBUG : Dictionary complete: {'name': 'Christian Science Monitor', 'allsides_page': 'https://www.allsides.com/news-source/christian-science-monitor', 'bias': 'center', 'agree': 9288, 'disagree': 12241, 'agree_ratio': 0.7587615390899436, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.csmonitor.com/'}
+2019-11-08 13:11:26,299 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 13:11:37,649 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 13:11:37,680 : DEBUG : Inner page soup created
+2019-11-08 13:11:37,694 : DEBUG : Dictionary complete: {'name': 'CNN (Web News)', 'allsides_page': 'https://www.allsides.com/news-source/cnn-media-bias', 'bias': 'left-center', 'agree': 28103, 'disagree': 29440, 'agree_ratio': 0.954585597826087, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.cnn.com'}
+2019-11-08 13:11:37,696 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 13:11:48,841 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 13:11:48,870 : DEBUG : Inner page soup created
+2019-11-08 13:11:48,883 : DEBUG : Dictionary complete: {'name': 'CNN - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/cnn-editorial', 'bias': 'left', 'agree': 8906, 'disagree': 2495, 'agree_ratio': 3.5695390781563128, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.cnn.com/opinions'}
+2019-11-08 13:11:48,886 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 13:11:59,534 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 13:11:59,566 : DEBUG : Inner page soup created
+2019-11-08 13:11:59,580 : DEBUG : Dictionary complete: {'name': 'Daily Beast', 'allsides_page': 'https://www.allsides.com/news-source/daily-beast-media-bias', 'bias': 'left', 'agree': 8027, 'disagree': 4290, 'agree_ratio': 1.871095571095571, 'agreeance_text': 'agrees', 'news_page': 'http://www.thedailybeast.com/'}
+2019-11-08 13:11:59,583 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-mail
+2019-11-08 13:12:10,682 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-mail
+2019-11-08 13:12:10,711 : DEBUG : Inner page soup created
+2019-11-08 13:12:10,725 : DEBUG : Dictionary complete: {'name': 'Daily Mail', 'allsides_page': 'https://www.allsides.com/news-source/daily-mail', 'bias': 'right', 'agree': 2669, 'disagree': 1964, 'agree_ratio': 1.3589613034623218, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://dailymail.co.uk'}
+2019-11-08 13:12:10,728 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/democracy-now
+2019-11-08 13:12:21,935 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/democracy-now
+2019-11-08 13:12:21,968 : DEBUG : Inner page soup created
+2019-11-08 13:12:21,981 : DEBUG : Dictionary complete: {'name': 'Democracy Now', 'allsides_page': 'https://www.allsides.com/news-source/democracy-now', 'bias': 'left', 'agree': 5629, 'disagree': 1864, 'agree_ratio': 3.0198497854077253, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.democracynow.org/'}
+2019-11-08 13:12:21,984 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/forbes
+2019-11-08 13:12:32,653 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/forbes
+2019-11-08 13:12:32,683 : DEBUG : Inner page soup created
+2019-11-08 13:12:32,696 : DEBUG : Dictionary complete: {'name': 'Forbes', 'allsides_page': 'https://www.allsides.com/news-source/forbes', 'bias': 'center', 'agree': 4229, 'disagree': 2558, 'agree_ratio': 1.6532447224394058, 'agreeance_text': 'agrees', 'news_page': 'http://www.forbes.com/'}
+2019-11-08 13:12:32,699 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 13:12:43,592 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 13:12:43,659 : DEBUG : Inner page soup created
+2019-11-08 13:12:43,673 : DEBUG : Dictionary complete: {'name': 'Fox News Opinion', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-editorial-media-bias', 'bias': 'right', 'agree': 6793, 'disagree': 1654, 'agree_ratio': 4.107013301088271, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.foxnews.com/opinion.html'}
+2019-11-08 13:12:43,676 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 13:12:54,168 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 13:12:54,199 : DEBUG : Inner page soup created
+2019-11-08 13:12:54,214 : DEBUG : Dictionary complete: {'name': 'Fox Online News', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-media-bias', 'bias': 'right-center', 'agree': 23169, 'disagree': 32518, 'agree_ratio': 0.7124976935850913, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.foxnews.com/'}
+2019-11-08 13:12:54,217 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 13:13:05,191 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 13:13:05,224 : DEBUG : Inner page soup created
+2019-11-08 13:13:05,238 : DEBUG : Dictionary complete: {'name': 'HuffPost', 'allsides_page': 'https://www.allsides.com/news-source/huffpost-media-bias', 'bias': 'left', 'agree': 20979, 'disagree': 19925, 'agree_ratio': 1.0528983688833125, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.huffingtonpost.com/'}
+2019-11-08 13:13:05,242 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 13:13:16,652 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 13:13:16,684 : DEBUG : Inner page soup created
+2019-11-08 13:13:16,698 : DEBUG : Dictionary complete: {'name': 'Mother Jones', 'allsides_page': 'https://www.allsides.com/news-source/mother-jones-bias', 'bias': 'left', 'agree': 5726, 'disagree': 1058, 'agree_ratio': 5.4120982986767485, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.motherjones.com/'}
+2019-11-08 13:13:26,699 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings?page=1
+2019-11-08 13:13:27,782 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings?page=1
+2019-11-08 13:13:27,845 : DEBUG : Soup created
+2019-11-08 13:13:27,854 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:13:27,856 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/msnbc
+2019-11-08 13:13:38,583 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/msnbc
+2019-11-08 13:13:38,624 : DEBUG : Inner page soup created
+2019-11-08 13:13:38,648 : DEBUG : Dictionary complete: {'name': 'MSNBC', 'allsides_page': 'https://www.allsides.com/news-source/msnbc', 'bias': 'left', 'agree': 5919, 'disagree': 1985, 'agree_ratio': 2.9818639798488666, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.msnbc.com/'}
+2019-11-08 13:13:38,651 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/national-review
+2019-11-08 13:13:49,742 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/national-review
+2019-11-08 13:13:49,776 : DEBUG : Inner page soup created
+2019-11-08 13:13:49,790 : DEBUG : Dictionary complete: {'name': 'National Review', 'allsides_page': 'https://www.allsides.com/news-source/national-review', 'bias': 'right', 'agree': 9564, 'disagree': 4508, 'agree_ratio': 2.121561668145519, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.nationalreview.com/'}
+2019-11-08 13:13:49,792 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/nbc-news-media-bias
+2019-11-08 13:14:00,514 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/nbc-news-media-bias
+2019-11-08 13:14:00,553 : DEBUG : Inner page soup created
+2019-11-08 13:14:00,586 : DEBUG : Dictionary complete: {'name': 'NBCNews.com', 'allsides_page': 'https://www.allsides.com/news-source/nbc-news-media-bias', 'bias': 'left-center', 'agree': 4336, 'disagree': 5523, 'agree_ratio': 0.7850805721528155, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.nbcnews.com'}
+2019-11-08 13:14:00,588 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-post
+2019-11-08 13:14:11,237 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-post
+2019-11-08 13:14:11,275 : DEBUG : Inner page soup created
+2019-11-08 13:14:11,291 : DEBUG : Dictionary complete: {'name': 'New York Post', 'allsides_page': 'https://www.allsides.com/news-source/new-york-post', 'bias': 'right', 'agree': 3820, 'disagree': 2616, 'agree_ratio': 1.460244648318043, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.nypost.com/'}
+2019-11-08 13:14:11,293 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-times
+2019-11-08 13:14:22,025 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-times
+2019-11-08 13:14:22,099 : DEBUG : Inner page soup created
+2019-11-08 13:14:22,121 : DEBUG : Dictionary complete: {'name': 'New York Times - News', 'allsides_page': 'https://www.allsides.com/news-source/new-york-times', 'bias': 'left-center', 'agree': 15901, 'disagree': 25493, 'agree_ratio': 0.6237398501549445, 'agreeance_text': 'disagrees', 'news_page': 'http://www.nytimes.com/'}
+2019-11-08 13:14:22,126 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-times-opinion-media-bias
+2019-11-08 13:14:33,308 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-times-opinion-media-bias
+2019-11-08 13:14:33,349 : DEBUG : Inner page soup created
+2019-11-08 13:14:33,367 : DEBUG : Dictionary complete: {'name': 'New York Times - Opinion', 'allsides_page': 'https://www.allsides.com/news-source/new-york-times-opinion-media-bias', 'bias': 'left', 'agree': 2917, 'disagree': 898, 'agree_ratio': 3.2483296213808464, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.nytimes.com/section/opinion'}
+2019-11-08 13:14:33,370 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/npr-editorial
+2019-11-08 13:14:44,104 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/npr-editorial
+2019-11-08 13:14:44,141 : DEBUG : Inner page soup created
+2019-11-08 13:14:44,158 : DEBUG : Dictionary complete: {'name': 'NPR Editorial', 'allsides_page': 'https://www.allsides.com/news-source/npr-editorial', 'bias': 'left-center', 'agree': 1949, 'disagree': 2090, 'agree_ratio': 0.9325358851674641, 'agreeance_text': 'somewhat disagrees', 'news_page': 'https://www.npr.org/sections/opinion/'}
+2019-11-08 13:14:44,161 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/npr-media-bias
+2019-11-08 13:14:55,047 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/npr-media-bias
+2019-11-08 13:14:55,131 : DEBUG : Inner page soup created
+2019-11-08 13:14:55,151 : DEBUG : Dictionary complete: {'name': 'NPR Online News', 'allsides_page': 'https://www.allsides.com/news-source/npr-media-bias', 'bias': 'center', 'agree': 19605, 'disagree': 14704, 'agree_ratio': 1.3333106637649619, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.npr.org/'}
+2019-11-08 13:14:55,154 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/politico-media-bias
+2019-11-08 13:15:05,913 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/politico-media-bias
+2019-11-08 13:15:05,947 : DEBUG : Inner page soup created
+2019-11-08 13:15:05,965 : DEBUG : Dictionary complete: {'name': 'Politico', 'allsides_page': 'https://www.allsides.com/news-source/politico-media-bias', 'bias': 'left-center', 'agree': 13937, 'disagree': 21664, 'agree_ratio': 0.6433253323485968, 'agreeance_text': 'disagrees', 'news_page': 'http://www.politico.com/'}
+2019-11-08 13:15:05,967 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/reason
+2019-11-08 13:15:16,754 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/reason
+2019-11-08 13:15:16,788 : DEBUG : Inner page soup created
+2019-11-08 13:15:16,804 : DEBUG : Dictionary complete: {'name': 'Reason', 'allsides_page': 'https://www.allsides.com/news-source/reason', 'bias': 'right-center', 'agree': 5323, 'disagree': 3573, 'agree_ratio': 1.4897844948222783, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://reason.com/'}
+2019-11-08 13:15:16,806 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/reuters
+2019-11-08 13:15:27,571 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/reuters
+2019-11-08 13:15:27,605 : DEBUG : Inner page soup created
+2019-11-08 13:15:27,619 : DEBUG : Dictionary complete: {'name': 'Reuters', 'allsides_page': 'https://www.allsides.com/news-source/reuters', 'bias': 'center', 'agree': 7008, 'disagree': 4599, 'agree_ratio': 1.5238095238095237, 'agreeance_text': 'agrees', 'news_page': 'http://www.reuters.com/'}
+2019-11-08 13:15:27,622 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/slate
+2019-11-08 13:15:38,381 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/slate
+2019-11-08 13:15:38,419 : DEBUG : Inner page soup created
+2019-11-08 13:15:38,437 : DEBUG : Dictionary complete: {'name': 'Slate', 'allsides_page': 'https://www.allsides.com/news-source/slate', 'bias': 'left', 'agree': 3464, 'disagree': 2421, 'agree_ratio': 1.4308137133415944, 'agreeance_text': 'somewhat agrees', 'news_page': 'https://slate.com/'}
+2019-11-08 13:15:38,441 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/atlantic
+2019-11-08 13:15:49,669 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/atlantic
+2019-11-08 13:15:49,701 : DEBUG : Inner page soup created
+2019-11-08 13:15:49,715 : DEBUG : Dictionary complete: {'name': 'The Atlantic', 'allsides_page': 'https://www.allsides.com/news-source/atlantic', 'bias': 'left-center', 'agree': 4700, 'disagree': 2763, 'agree_ratio': 1.7010495837857402, 'agreeance_text': 'agrees', 'news_page': 'http://www.theatlantic.com/'}
+2019-11-08 13:15:49,718 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-caller
+2019-11-08 13:16:00,904 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-caller
+2019-11-08 13:16:00,934 : DEBUG : Inner page soup created
+2019-11-08 13:16:00,951 : DEBUG : Dictionary complete: {'name': 'The Daily Caller', 'allsides_page': 'https://www.allsides.com/news-source/daily-caller', 'bias': 'right', 'agree': 4789, 'disagree': 2579, 'agree_ratio': 1.8569212873206669, 'agreeance_text': 'agrees', 'news_page': 'http://dailycaller.com/'}
+2019-11-08 13:16:00,954 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-wire
+2019-11-08 13:16:11,641 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-wire
+2019-11-08 13:16:11,673 : DEBUG : Inner page soup created
+2019-11-08 13:16:11,688 : DEBUG : Dictionary complete: {'name': 'The Daily Wire', 'allsides_page': 'https://www.allsides.com/news-source/daily-wire', 'bias': 'right', 'agree': 2839, 'disagree': 1379, 'agree_ratio': 2.058738216098622, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.dailywire.com/'}
+2019-11-08 13:16:11,691 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/economist
+2019-11-08 13:16:22,972 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/economist
+2019-11-08 13:16:23,005 : DEBUG : Inner page soup created
+2019-11-08 13:16:23,019 : DEBUG : Dictionary complete: {'name': 'The Economist', 'allsides_page': 'https://www.allsides.com/news-source/economist', 'bias': 'left-center', 'agree': 1673, 'disagree': 3147, 'agree_ratio': 0.5316174134095965, 'agreeance_text': 'disagrees', 'news_page': 'http://www.economist.com/'}
+2019-11-08 13:16:23,022 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/federalist
+2019-11-08 13:16:33,829 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/federalist
+2019-11-08 13:16:33,860 : DEBUG : Inner page soup created
+2019-11-08 13:16:33,874 : DEBUG : Dictionary complete: {'name': 'The Federalist', 'allsides_page': 'https://www.allsides.com/news-source/federalist', 'bias': 'right', 'agree': 2569, 'disagree': 1238, 'agree_ratio': 2.0751211631663975, 'agreeance_text': 'strongly agrees', 'news_page': 'http://thefederalist.com/'}
+2019-11-08 13:16:33,877 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/guardian
+2019-11-08 13:16:44,572 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/guardian
+2019-11-08 13:16:44,604 : DEBUG : Inner page soup created
+2019-11-08 13:16:44,619 : DEBUG : Dictionary complete: {'name': 'The Guardian', 'allsides_page': 'https://www.allsides.com/news-source/guardian', 'bias': 'left-center', 'agree': 6179, 'disagree': 3970, 'agree_ratio': 1.5564231738035263, 'agreeance_text': 'agrees', 'news_page': 'https://www.theguardian.com/us'}
+2019-11-08 13:16:44,621 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/hill-media-bias
+2019-11-08 13:16:55,270 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/hill-media-bias
+2019-11-08 13:16:55,302 : DEBUG : Inner page soup created
+2019-11-08 13:16:55,316 : DEBUG : Dictionary complete: {'name': 'The Hill', 'allsides_page': 'https://www.allsides.com/news-source/hill-media-bias', 'bias': 'center', 'agree': 7608, 'disagree': 9439, 'agree_ratio': 0.8060175866087509, 'agreeance_text': 'somewhat disagrees', 'news_page': 'https://www.thehill.com'}
+2019-11-08 13:16:55,318 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/intercept
+2019-11-08 13:17:06,283 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/intercept
+2019-11-08 13:17:06,314 : DEBUG : Inner page soup created
+2019-11-08 13:17:06,329 : DEBUG : Dictionary complete: {'name': 'The Intercept', 'allsides_page': 'https://www.allsides.com/news-source/intercept', 'bias': 'left', 'agree': 1270, 'disagree': 649, 'agree_ratio': 1.9568567026194146, 'agreeance_text': 'agrees', 'news_page': 'https://theintercept.com'}
+2019-11-08 13:17:16,330 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings?page=2
+2019-11-08 13:17:18,766 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings?page=2
+2019-11-08 13:17:18,848 : DEBUG : Soup created
+2019-11-08 13:17:18,853 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:17:18,856 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-yorker
+2019-11-08 13:17:29,536 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-yorker
+2019-11-08 13:17:29,569 : DEBUG : Inner page soup created
+2019-11-08 13:17:29,582 : DEBUG : Dictionary complete: {'name': 'The New Yorker', 'allsides_page': 'https://www.allsides.com/news-source/new-yorker', 'bias': 'left', 'agree': 2578, 'disagree': 790, 'agree_ratio': 3.2632911392405064, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.newyorker.com/'}
+2019-11-08 13:17:29,585 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/theblaze-bias
+2019-11-08 13:17:41,333 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/theblaze-bias
+2019-11-08 13:17:41,367 : DEBUG : Inner page soup created
+2019-11-08 13:17:41,381 : DEBUG : Dictionary complete: {'name': 'TheBlaze.com', 'allsides_page': 'https://www.allsides.com/news-source/theblaze-bias', 'bias': 'right', 'agree': 32538, 'disagree': 25638, 'agree_ratio': 1.2691317575473906, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.theblaze.com/'}
+2019-11-08 13:17:41,384 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/time-magazine-news-media-bias
+2019-11-08 13:17:52,137 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/time-magazine-news-media-bias
+2019-11-08 13:17:52,170 : DEBUG : Inner page soup created
+2019-11-08 13:17:52,185 : DEBUG : Dictionary complete: {'name': 'Time Magazine', 'allsides_page': 'https://www.allsides.com/news-source/time-magazine-news-media-bias', 'bias': 'left-center', 'agree': 4282, 'disagree': 3569, 'agree_ratio': 1.199775847576352, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.time.com/time/'}
+2019-11-08 13:17:52,187 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/usa-today-media-bias
+2019-11-08 13:18:02,834 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/usa-today-media-bias
+2019-11-08 13:18:02,865 : DEBUG : Inner page soup created
+2019-11-08 13:18:02,880 : DEBUG : Dictionary complete: {'name': 'USA TODAY', 'allsides_page': 'https://www.allsides.com/news-source/usa-today-media-bias', 'bias': 'center', 'agree': 12393, 'disagree': 10027, 'agree_ratio': 1.2359629001695422, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.usatoday.com/'}
+2019-11-08 13:18:02,883 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/vox-news-media-bias
+2019-11-08 13:18:13,547 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/vox-news-media-bias
+2019-11-08 13:18:13,579 : DEBUG : Inner page soup created
+2019-11-08 13:18:13,595 : DEBUG : Dictionary complete: {'name': 'Vox', 'allsides_page': 'https://www.allsides.com/news-source/vox-news-media-bias', 'bias': 'left', 'agree': 12853, 'disagree': 12456, 'agree_ratio': 1.0318721901091843, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.vox.com'}
+2019-11-08 13:18:13,597 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/wall-street-journal-opinion
+2019-11-08 13:18:24,423 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/wall-street-journal-opinion
+2019-11-08 13:18:24,454 : DEBUG : Inner page soup created
+2019-11-08 13:18:24,469 : DEBUG : Dictionary complete: {'name': 'Wall Street Journal - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/wall-street-journal-opinion', 'bias': 'right-center', 'agree': 5166, 'disagree': 3786, 'agree_ratio': 1.364500792393027, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://online.wsj.com/public/page/news-opinion-commentary.html'}
+2019-11-08 13:18:24,471 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/wall-street-journal-media-bias
+2019-11-08 13:18:35,061 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/wall-street-journal-media-bias
+2019-11-08 13:18:35,093 : DEBUG : Inner page soup created
+2019-11-08 13:18:35,107 : DEBUG : Dictionary complete: {'name': 'Wall Street Journal - News', 'allsides_page': 'https://www.allsides.com/news-source/wall-street-journal-media-bias', 'bias': 'center', 'agree': 12623, 'disagree': 17953, 'agree_ratio': 0.7031136857349747, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://online.wsj.com/'}
+2019-11-08 13:18:35,110 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-examiner
+2019-11-08 13:18:45,707 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-examiner
+2019-11-08 13:18:45,740 : DEBUG : Inner page soup created
+2019-11-08 13:18:45,756 : DEBUG : Dictionary complete: {'name': 'Washington Examiner', 'allsides_page': 'https://www.allsides.com/news-source/washington-examiner', 'bias': 'right-center', 'agree': 5211, 'disagree': 2761, 'agree_ratio': 1.8873596522998914, 'agreeance_text': 'agrees', 'news_page': 'http://washingtonexaminer.com/'}
+2019-11-08 13:18:45,758 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-post-media-bias
+2019-11-08 13:18:56,251 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-post-media-bias
+2019-11-08 13:18:56,285 : DEBUG : Inner page soup created
+2019-11-08 13:18:56,300 : DEBUG : Dictionary complete: {'name': 'Washington Post', 'allsides_page': 'https://www.allsides.com/news-source/washington-post-media-bias', 'bias': 'left-center', 'agree': 24508, 'disagree': 15362, 'agree_ratio': 1.5953651868246321, 'agreeance_text': 'agrees', 'news_page': 'https://www.washingtonpost.com/'}
+2019-11-08 13:18:56,304 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-times-bias
+2019-11-08 13:19:07,083 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-times-bias
+2019-11-08 13:19:07,117 : DEBUG : Inner page soup created
+2019-11-08 13:19:07,131 : DEBUG : Dictionary complete: {'name': 'Washington Times', 'allsides_page': 'https://www.allsides.com/news-source/washington-times-bias', 'bias': 'right-center', 'agree': 21262, 'disagree': 10702, 'agree_ratio': 1.9867314520650345, 'agreeance_text': 'agrees', 'news_page': 'http://www.washingtontimes.com/'}
+2019-11-08 13:19:17,133 : INFO : Scraping complete
+2019-11-08 13:26:41,062 : INFO : Initializing build_data function (scraper)
+2019-11-08 13:26:41,067 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 13:26:41,229 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings
+2019-11-08 13:26:41,324 : DEBUG : Soup created
+2019-11-08 13:26:41,336 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:26:41,339 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 13:26:52,414 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/abc-news-media-bias
+2019-11-08 13:26:52,452 : DEBUG : Inner page soup created
+2019-11-08 13:26:52,468 : DEBUG : Dictionary complete: {'name': 'ABC News', 'allsides_page': 'https://www.allsides.com/news-source/abc-news-media-bias', 'bias': 'left-center', 'agree': 14315, 'disagree': 9624, 'agree_ratio': 1.4874272651704072, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://abcnews.go.com/'}
+2019-11-08 13:26:52,471 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 13:27:03,460 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/alternet-media-bias
+2019-11-08 13:27:03,492 : DEBUG : Inner page soup created
+2019-11-08 13:27:03,506 : DEBUG : Dictionary complete: {'name': 'AlterNet', 'allsides_page': 'https://www.allsides.com/news-source/alternet-media-bias', 'bias': 'left', 'agree': 3613, 'disagree': 896, 'agree_ratio': 4.032366071428571, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.alternet.org/'}
+2019-11-08 13:27:03,508 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/american-spectator
+2019-11-08 13:27:14,400 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/american-spectator
+2019-11-08 13:27:14,460 : DEBUG : Inner page soup created
+2019-11-08 13:27:14,479 : DEBUG : Dictionary complete: {'name': 'American Spectator', 'allsides_page': 'https://www.allsides.com/news-source/american-spectator', 'bias': 'right', 'agree': 7242, 'disagree': 2896, 'agree_ratio': 2.5006906077348066, 'agreeance_text': 'strongly agrees', 'news_page': 'http://spectator.org/'}
+2019-11-08 13:27:14,482 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 13:27:25,017 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/associated-press-media-bias
+2019-11-08 13:27:25,049 : DEBUG : Inner page soup created
+2019-11-08 13:27:25,064 : DEBUG : Dictionary complete: {'name': 'Associated Press', 'allsides_page': 'https://www.allsides.com/news-source/associated-press-media-bias', 'bias': 'center', 'agree': 8509, 'disagree': 6061, 'agree_ratio': 1.4038937469064512, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.ap.org/'}
+2019-11-08 13:27:25,068 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 13:27:36,233 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bbc-news-media-bias
+2019-11-08 13:27:36,263 : DEBUG : Inner page soup created
+2019-11-08 13:27:36,278 : DEBUG : Dictionary complete: {'name': 'BBC News', 'allsides_page': 'https://www.allsides.com/news-source/bbc-news-media-bias', 'bias': 'center', 'agree': 11622, 'disagree': 11367, 'agree_ratio': 1.0224333597255213, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.bbc.com/'}
+2019-11-08 13:27:36,281 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 13:27:46,959 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/bloomberg-media-bias
+2019-11-08 13:27:46,992 : DEBUG : Inner page soup created
+2019-11-08 13:27:47,006 : DEBUG : Dictionary complete: {'name': 'Bloomberg', 'allsides_page': 'https://www.allsides.com/news-source/bloomberg-media-bias', 'bias': 'center', 'agree': 6660, 'disagree': 7883, 'agree_ratio': 0.8448560192819993, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.bloomberg.com/'}
+2019-11-08 13:27:47,009 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/breitbart
+2019-11-08 13:27:57,498 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/breitbart
+2019-11-08 13:27:57,530 : DEBUG : Inner page soup created
+2019-11-08 13:27:57,545 : DEBUG : Dictionary complete: {'name': 'Breitbart News', 'allsides_page': 'https://www.allsides.com/news-source/breitbart', 'bias': 'right', 'agree': 17632, 'disagree': 8188, 'agree_ratio': 2.1533952125061067, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.breitbart.com/'}
+2019-11-08 13:27:57,548 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 13:28:08,233 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/buzzfeed-media-bias
+2019-11-08 13:28:08,264 : DEBUG : Inner page soup created
+2019-11-08 13:28:08,277 : DEBUG : Dictionary complete: {'name': 'BuzzFeed News', 'allsides_page': 'https://www.allsides.com/news-source/buzzfeed-media-bias', 'bias': 'left', 'agree': 6673, 'disagree': 6665, 'agree_ratio': 1.0012003000750187, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://buzzfeednews.com'}
+2019-11-08 13:28:08,280 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 13:28:18,825 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cbs-news-media-bias
+2019-11-08 13:28:18,856 : DEBUG : Inner page soup created
+2019-11-08 13:28:18,872 : DEBUG : Dictionary complete: {'name': 'CBS News', 'allsides_page': 'https://www.allsides.com/news-source/cbs-news-media-bias', 'bias': 'left-center', 'agree': 7166, 'disagree': 5554, 'agree_ratio': 1.2902412675549153, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.cbsnews.com/'}
+2019-11-08 13:28:18,873 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 13:28:29,524 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/christian-science-monitor
+2019-11-08 13:28:29,555 : DEBUG : Inner page soup created
+2019-11-08 13:28:29,569 : DEBUG : Dictionary complete: {'name': 'Christian Science Monitor', 'allsides_page': 'https://www.allsides.com/news-source/christian-science-monitor', 'bias': 'center', 'agree': 9288, 'disagree': 12241, 'agree_ratio': 0.7587615390899436, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.csmonitor.com/'}
+2019-11-08 13:28:29,572 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 13:28:40,049 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-media-bias
+2019-11-08 13:28:40,082 : DEBUG : Inner page soup created
+2019-11-08 13:28:40,097 : DEBUG : Dictionary complete: {'name': 'CNN (Web News)', 'allsides_page': 'https://www.allsides.com/news-source/cnn-media-bias', 'bias': 'left-center', 'agree': 28103, 'disagree': 29441, 'agree_ratio': 0.9545531741448999, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.cnn.com'}
+2019-11-08 13:28:40,100 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 13:28:50,717 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/cnn-editorial
+2019-11-08 13:28:50,750 : DEBUG : Inner page soup created
+2019-11-08 13:28:50,765 : DEBUG : Dictionary complete: {'name': 'CNN - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/cnn-editorial', 'bias': 'left', 'agree': 8906, 'disagree': 2495, 'agree_ratio': 3.5695390781563128, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.cnn.com/opinions'}
+2019-11-08 13:28:50,767 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 13:29:01,965 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-beast-media-bias
+2019-11-08 13:29:01,998 : DEBUG : Inner page soup created
+2019-11-08 13:29:02,013 : DEBUG : Dictionary complete: {'name': 'Daily Beast', 'allsides_page': 'https://www.allsides.com/news-source/daily-beast-media-bias', 'bias': 'left', 'agree': 8027, 'disagree': 4290, 'agree_ratio': 1.871095571095571, 'agreeance_text': 'agrees', 'news_page': 'http://www.thedailybeast.com/'}
+2019-11-08 13:29:02,016 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-mail
+2019-11-08 13:29:13,785 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-mail
+2019-11-08 13:29:13,833 : DEBUG : Inner page soup created
+2019-11-08 13:29:13,847 : DEBUG : Dictionary complete: {'name': 'Daily Mail', 'allsides_page': 'https://www.allsides.com/news-source/daily-mail', 'bias': 'right', 'agree': 2669, 'disagree': 1964, 'agree_ratio': 1.3589613034623218, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://dailymail.co.uk'}
+2019-11-08 13:29:13,850 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/democracy-now
+2019-11-08 13:29:24,597 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/democracy-now
+2019-11-08 13:29:24,675 : DEBUG : Inner page soup created
+2019-11-08 13:29:24,733 : DEBUG : Dictionary complete: {'name': 'Democracy Now', 'allsides_page': 'https://www.allsides.com/news-source/democracy-now', 'bias': 'left', 'agree': 5629, 'disagree': 1864, 'agree_ratio': 3.0198497854077253, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.democracynow.org/'}
+2019-11-08 13:29:24,746 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/forbes
+2019-11-08 13:29:35,573 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/forbes
+2019-11-08 13:29:35,734 : DEBUG : Inner page soup created
+2019-11-08 13:29:35,788 : DEBUG : Dictionary complete: {'name': 'Forbes', 'allsides_page': 'https://www.allsides.com/news-source/forbes', 'bias': 'center', 'agree': 4229, 'disagree': 2558, 'agree_ratio': 1.6532447224394058, 'agreeance_text': 'agrees', 'news_page': 'http://www.forbes.com/'}
+2019-11-08 13:29:35,797 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 13:29:46,649 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-editorial-media-bias
+2019-11-08 13:29:46,699 : DEBUG : Inner page soup created
+2019-11-08 13:29:46,721 : DEBUG : Dictionary complete: {'name': 'Fox News Opinion', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-editorial-media-bias', 'bias': 'right', 'agree': 6793, 'disagree': 1654, 'agree_ratio': 4.107013301088271, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.foxnews.com/opinion.html'}
+2019-11-08 13:29:46,724 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 13:29:57,531 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/fox-news-media-bias
+2019-11-08 13:29:57,564 : DEBUG : Inner page soup created
+2019-11-08 13:29:57,584 : DEBUG : Dictionary complete: {'name': 'Fox Online News', 'allsides_page': 'https://www.allsides.com/news-source/fox-news-media-bias', 'bias': 'right-center', 'agree': 23169, 'disagree': 32518, 'agree_ratio': 0.7124976935850913, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.foxnews.com/'}
+2019-11-08 13:29:57,586 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 13:30:08,282 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/huffpost-media-bias
+2019-11-08 13:30:08,321 : DEBUG : Inner page soup created
+2019-11-08 13:30:08,340 : DEBUG : Dictionary complete: {'name': 'HuffPost', 'allsides_page': 'https://www.allsides.com/news-source/huffpost-media-bias', 'bias': 'left', 'agree': 20979, 'disagree': 19925, 'agree_ratio': 1.0528983688833125, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.huffingtonpost.com/'}
+2019-11-08 13:30:08,343 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 13:30:19,453 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/mother-jones-bias
+2019-11-08 13:30:19,485 : DEBUG : Inner page soup created
+2019-11-08 13:30:19,500 : DEBUG : Dictionary complete: {'name': 'Mother Jones', 'allsides_page': 'https://www.allsides.com/news-source/mother-jones-bias', 'bias': 'left', 'agree': 5726, 'disagree': 1058, 'agree_ratio': 5.4120982986767485, 'agreeance_text': 'absolutely agrees', 'news_page': 'http://www.motherjones.com/'}
+2019-11-08 13:30:29,502 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings?page=1
+2019-11-08 13:30:30,338 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings?page=1
+2019-11-08 13:30:30,402 : DEBUG : Soup created
+2019-11-08 13:30:30,411 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:30:30,414 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/msnbc
+2019-11-08 13:30:41,335 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/msnbc
+2019-11-08 13:30:41,368 : DEBUG : Inner page soup created
+2019-11-08 13:30:41,383 : DEBUG : Dictionary complete: {'name': 'MSNBC', 'allsides_page': 'https://www.allsides.com/news-source/msnbc', 'bias': 'left', 'agree': 5919, 'disagree': 1985, 'agree_ratio': 2.9818639798488666, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.msnbc.com/'}
+2019-11-08 13:30:41,385 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/national-review
+2019-11-08 13:30:51,874 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/national-review
+2019-11-08 13:30:51,907 : DEBUG : Inner page soup created
+2019-11-08 13:30:51,921 : DEBUG : Dictionary complete: {'name': 'National Review', 'allsides_page': 'https://www.allsides.com/news-source/national-review', 'bias': 'right', 'agree': 9565, 'disagree': 4508, 'agree_ratio': 2.1217834960070987, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.nationalreview.com/'}
+2019-11-08 13:30:51,923 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/nbc-news-media-bias
+2019-11-08 13:31:02,547 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/nbc-news-media-bias
+2019-11-08 13:31:02,578 : DEBUG : Inner page soup created
+2019-11-08 13:31:02,593 : DEBUG : Dictionary complete: {'name': 'NBCNews.com', 'allsides_page': 'https://www.allsides.com/news-source/nbc-news-media-bias', 'bias': 'left-center', 'agree': 4336, 'disagree': 5523, 'agree_ratio': 0.7850805721528155, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://www.nbcnews.com'}
+2019-11-08 13:31:02,595 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-post
+2019-11-08 13:31:13,231 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-post
+2019-11-08 13:31:13,263 : DEBUG : Inner page soup created
+2019-11-08 13:31:13,277 : DEBUG : Dictionary complete: {'name': 'New York Post', 'allsides_page': 'https://www.allsides.com/news-source/new-york-post', 'bias': 'right', 'agree': 3820, 'disagree': 2616, 'agree_ratio': 1.460244648318043, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.nypost.com/'}
+2019-11-08 13:31:13,280 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-times
+2019-11-08 13:31:23,922 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-times
+2019-11-08 13:31:23,955 : DEBUG : Inner page soup created
+2019-11-08 13:31:23,973 : DEBUG : Dictionary complete: {'name': 'New York Times - News', 'allsides_page': 'https://www.allsides.com/news-source/new-york-times', 'bias': 'left-center', 'agree': 15902, 'disagree': 25493, 'agree_ratio': 0.6237790766092652, 'agreeance_text': 'disagrees', 'news_page': 'http://www.nytimes.com/'}
+2019-11-08 13:31:23,975 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-york-times-opinion-media-bias
+2019-11-08 13:31:34,746 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-york-times-opinion-media-bias
+2019-11-08 13:31:34,778 : DEBUG : Inner page soup created
+2019-11-08 13:31:34,793 : DEBUG : Dictionary complete: {'name': 'New York Times - Opinion', 'allsides_page': 'https://www.allsides.com/news-source/new-york-times-opinion-media-bias', 'bias': 'left', 'agree': 2918, 'disagree': 898, 'agree_ratio': 3.249443207126949, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.nytimes.com/section/opinion'}
+2019-11-08 13:31:34,796 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/npr-editorial
+2019-11-08 13:31:45,384 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/npr-editorial
+2019-11-08 13:31:45,453 : DEBUG : Inner page soup created
+2019-11-08 13:31:45,469 : DEBUG : Dictionary complete: {'name': 'NPR Editorial', 'allsides_page': 'https://www.allsides.com/news-source/npr-editorial', 'bias': 'left-center', 'agree': 1949, 'disagree': 2090, 'agree_ratio': 0.9325358851674641, 'agreeance_text': 'somewhat disagrees', 'news_page': 'https://www.npr.org/sections/opinion/'}
+2019-11-08 13:31:45,472 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/npr-media-bias
+2019-11-08 13:31:56,047 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/npr-media-bias
+2019-11-08 13:31:56,080 : DEBUG : Inner page soup created
+2019-11-08 13:31:56,096 : DEBUG : Dictionary complete: {'name': 'NPR Online News', 'allsides_page': 'https://www.allsides.com/news-source/npr-media-bias', 'bias': 'center', 'agree': 19605, 'disagree': 14704, 'agree_ratio': 1.3333106637649619, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.npr.org/'}
+2019-11-08 13:31:56,100 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/politico-media-bias
+2019-11-08 13:32:06,702 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/politico-media-bias
+2019-11-08 13:32:06,734 : DEBUG : Inner page soup created
+2019-11-08 13:32:06,750 : DEBUG : Dictionary complete: {'name': 'Politico', 'allsides_page': 'https://www.allsides.com/news-source/politico-media-bias', 'bias': 'left-center', 'agree': 13937, 'disagree': 21664, 'agree_ratio': 0.6433253323485968, 'agreeance_text': 'disagrees', 'news_page': 'http://www.politico.com/'}
+2019-11-08 13:32:06,753 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/reason
+2019-11-08 13:32:17,704 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/reason
+2019-11-08 13:32:17,735 : DEBUG : Inner page soup created
+2019-11-08 13:32:17,750 : DEBUG : Dictionary complete: {'name': 'Reason', 'allsides_page': 'https://www.allsides.com/news-source/reason', 'bias': 'right-center', 'agree': 5323, 'disagree': 3573, 'agree_ratio': 1.4897844948222783, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://reason.com/'}
+2019-11-08 13:32:17,754 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/reuters
+2019-11-08 13:32:28,575 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/reuters
+2019-11-08 13:32:28,607 : DEBUG : Inner page soup created
+2019-11-08 13:32:28,621 : DEBUG : Dictionary complete: {'name': 'Reuters', 'allsides_page': 'https://www.allsides.com/news-source/reuters', 'bias': 'center', 'agree': 7008, 'disagree': 4599, 'agree_ratio': 1.5238095238095237, 'agreeance_text': 'agrees', 'news_page': 'http://www.reuters.com/'}
+2019-11-08 13:32:28,624 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/slate
+2019-11-08 13:32:39,294 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/slate
+2019-11-08 13:32:39,327 : DEBUG : Inner page soup created
+2019-11-08 13:32:39,342 : DEBUG : Dictionary complete: {'name': 'Slate', 'allsides_page': 'https://www.allsides.com/news-source/slate', 'bias': 'left', 'agree': 3464, 'disagree': 2421, 'agree_ratio': 1.4308137133415944, 'agreeance_text': 'somewhat agrees', 'news_page': 'https://slate.com/'}
+2019-11-08 13:32:39,345 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/atlantic
+2019-11-08 13:32:50,139 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/atlantic
+2019-11-08 13:32:50,170 : DEBUG : Inner page soup created
+2019-11-08 13:32:50,186 : DEBUG : Dictionary complete: {'name': 'The Atlantic', 'allsides_page': 'https://www.allsides.com/news-source/atlantic', 'bias': 'left-center', 'agree': 4700, 'disagree': 2763, 'agree_ratio': 1.7010495837857402, 'agreeance_text': 'agrees', 'news_page': 'http://www.theatlantic.com/'}
+2019-11-08 13:32:50,189 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-caller
+2019-11-08 13:33:00,843 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-caller
+2019-11-08 13:33:00,875 : DEBUG : Inner page soup created
+2019-11-08 13:33:00,889 : DEBUG : Dictionary complete: {'name': 'The Daily Caller', 'allsides_page': 'https://www.allsides.com/news-source/daily-caller', 'bias': 'right', 'agree': 4789, 'disagree': 2579, 'agree_ratio': 1.8569212873206669, 'agreeance_text': 'agrees', 'news_page': 'http://dailycaller.com/'}
+2019-11-08 13:33:00,892 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/daily-wire
+2019-11-08 13:33:11,710 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/daily-wire
+2019-11-08 13:33:11,741 : DEBUG : Inner page soup created
+2019-11-08 13:33:11,756 : DEBUG : Dictionary complete: {'name': 'The Daily Wire', 'allsides_page': 'https://www.allsides.com/news-source/daily-wire', 'bias': 'right', 'agree': 2839, 'disagree': 1379, 'agree_ratio': 2.058738216098622, 'agreeance_text': 'strongly agrees', 'news_page': 'http://www.dailywire.com/'}
+2019-11-08 13:33:11,758 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/economist
+2019-11-08 13:33:22,293 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/economist
+2019-11-08 13:33:22,327 : DEBUG : Inner page soup created
+2019-11-08 13:33:22,341 : DEBUG : Dictionary complete: {'name': 'The Economist', 'allsides_page': 'https://www.allsides.com/news-source/economist', 'bias': 'left-center', 'agree': 1673, 'disagree': 3147, 'agree_ratio': 0.5316174134095965, 'agreeance_text': 'disagrees', 'news_page': 'http://www.economist.com/'}
+2019-11-08 13:33:22,344 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/federalist
+2019-11-08 13:33:33,037 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/federalist
+2019-11-08 13:33:33,069 : DEBUG : Inner page soup created
+2019-11-08 13:33:33,082 : DEBUG : Dictionary complete: {'name': 'The Federalist', 'allsides_page': 'https://www.allsides.com/news-source/federalist', 'bias': 'right', 'agree': 2569, 'disagree': 1238, 'agree_ratio': 2.0751211631663975, 'agreeance_text': 'strongly agrees', 'news_page': 'http://thefederalist.com/'}
+2019-11-08 13:33:33,085 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/guardian
+2019-11-08 13:33:43,848 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/guardian
+2019-11-08 13:33:43,881 : DEBUG : Inner page soup created
+2019-11-08 13:33:43,896 : DEBUG : Dictionary complete: {'name': 'The Guardian', 'allsides_page': 'https://www.allsides.com/news-source/guardian', 'bias': 'left-center', 'agree': 6179, 'disagree': 3970, 'agree_ratio': 1.5564231738035263, 'agreeance_text': 'agrees', 'news_page': 'https://www.theguardian.com/us'}
+2019-11-08 13:33:43,898 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/hill-media-bias
+2019-11-08 13:33:56,019 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/hill-media-bias
+2019-11-08 13:33:56,050 : DEBUG : Inner page soup created
+2019-11-08 13:33:56,064 : DEBUG : Dictionary complete: {'name': 'The Hill', 'allsides_page': 'https://www.allsides.com/news-source/hill-media-bias', 'bias': 'center', 'agree': 7608, 'disagree': 9439, 'agree_ratio': 0.8060175866087509, 'agreeance_text': 'somewhat disagrees', 'news_page': 'https://www.thehill.com'}
+2019-11-08 13:33:56,067 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/intercept
+2019-11-08 13:34:06,923 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/intercept
+2019-11-08 13:34:07,004 : DEBUG : Inner page soup created
+2019-11-08 13:34:07,019 : DEBUG : Dictionary complete: {'name': 'The Intercept', 'allsides_page': 'https://www.allsides.com/news-source/intercept', 'bias': 'left', 'agree': 1270, 'disagree': 649, 'agree_ratio': 1.9568567026194146, 'agreeance_text': 'agrees', 'news_page': 'https://theintercept.com'}
+2019-11-08 13:34:17,021 : INFO : Considering page: https://www.allsides.com/media-bias/media-bias-ratings?page=2
+2019-11-08 13:34:18,361 : DEBUG : Request made to page: https://www.allsides.com/media-bias/media-bias-ratings?page=2
+2019-11-08 13:34:18,412 : DEBUG : Soup created
+2019-11-08 13:34:18,419 : DEBUG : All table rows (<tr>) child of body tag (<tbody>) extracted
+2019-11-08 13:34:18,422 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/new-yorker
+2019-11-08 13:34:29,064 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/new-yorker
+2019-11-08 13:34:29,109 : DEBUG : Inner page soup created
+2019-11-08 13:34:29,130 : DEBUG : Dictionary complete: {'name': 'The New Yorker', 'allsides_page': 'https://www.allsides.com/news-source/new-yorker', 'bias': 'left', 'agree': 2578, 'disagree': 790, 'agree_ratio': 3.2632911392405064, 'agreeance_text': 'absolutely agrees', 'news_page': 'https://www.newyorker.com/'}
+2019-11-08 13:34:29,133 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/theblaze-bias
+2019-11-08 13:34:39,801 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/theblaze-bias
+2019-11-08 13:34:39,839 : DEBUG : Inner page soup created
+2019-11-08 13:34:39,856 : DEBUG : Dictionary complete: {'name': 'TheBlaze.com', 'allsides_page': 'https://www.allsides.com/news-source/theblaze-bias', 'bias': 'right', 'agree': 32540, 'disagree': 25639, 'agree_ratio': 1.2691602636608292, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.theblaze.com/'}
+2019-11-08 13:34:39,859 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/time-magazine-news-media-bias
+2019-11-08 13:34:50,454 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/time-magazine-news-media-bias
+2019-11-08 13:34:50,493 : DEBUG : Inner page soup created
+2019-11-08 13:34:50,511 : DEBUG : Dictionary complete: {'name': 'Time Magazine', 'allsides_page': 'https://www.allsides.com/news-source/time-magazine-news-media-bias', 'bias': 'left-center', 'agree': 4282, 'disagree': 3569, 'agree_ratio': 1.199775847576352, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.time.com/time/'}
+2019-11-08 13:34:50,514 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/usa-today-media-bias
+2019-11-08 13:35:01,595 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/usa-today-media-bias
+2019-11-08 13:35:01,631 : DEBUG : Inner page soup created
+2019-11-08 13:35:01,649 : DEBUG : Dictionary complete: {'name': 'USA TODAY', 'allsides_page': 'https://www.allsides.com/news-source/usa-today-media-bias', 'bias': 'center', 'agree': 12393, 'disagree': 10027, 'agree_ratio': 1.2359629001695422, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.usatoday.com/'}
+2019-11-08 13:35:01,651 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/vox-news-media-bias
+2019-11-08 13:35:12,423 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/vox-news-media-bias
+2019-11-08 13:35:12,455 : DEBUG : Inner page soup created
+2019-11-08 13:35:12,472 : DEBUG : Dictionary complete: {'name': 'Vox', 'allsides_page': 'https://www.allsides.com/news-source/vox-news-media-bias', 'bias': 'left', 'agree': 12853, 'disagree': 12456, 'agree_ratio': 1.0318721901091843, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://www.vox.com'}
+2019-11-08 13:35:12,474 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/wall-street-journal-opinion
+2019-11-08 13:35:23,697 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/wall-street-journal-opinion
+2019-11-08 13:35:23,728 : DEBUG : Inner page soup created
+2019-11-08 13:35:23,744 : DEBUG : Dictionary complete: {'name': 'Wall Street Journal - Editorial', 'allsides_page': 'https://www.allsides.com/news-source/wall-street-journal-opinion', 'bias': 'right-center', 'agree': 5166, 'disagree': 3786, 'agree_ratio': 1.364500792393027, 'agreeance_text': 'somewhat agrees', 'news_page': 'http://online.wsj.com/public/page/news-opinion-commentary.html'}
+2019-11-08 13:35:23,747 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/wall-street-journal-media-bias
+2019-11-08 13:35:34,683 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/wall-street-journal-media-bias
+2019-11-08 13:35:34,715 : DEBUG : Inner page soup created
+2019-11-08 13:35:34,730 : DEBUG : Dictionary complete: {'name': 'Wall Street Journal - News', 'allsides_page': 'https://www.allsides.com/news-source/wall-street-journal-media-bias', 'bias': 'center', 'agree': 12623, 'disagree': 17953, 'agree_ratio': 0.7031136857349747, 'agreeance_text': 'somewhat disagrees', 'news_page': 'http://online.wsj.com/'}
+2019-11-08 13:35:34,732 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-examiner
+2019-11-08 13:35:45,288 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-examiner
+2019-11-08 13:35:45,322 : DEBUG : Inner page soup created
+2019-11-08 13:35:45,338 : DEBUG : Dictionary complete: {'name': 'Washington Examiner', 'allsides_page': 'https://www.allsides.com/news-source/washington-examiner', 'bias': 'right-center', 'agree': 5211, 'disagree': 2761, 'agree_ratio': 1.8873596522998914, 'agreeance_text': 'agrees', 'news_page': 'http://washingtonexaminer.com/'}
+2019-11-08 13:35:45,341 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-post-media-bias
+2019-11-08 13:35:56,003 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-post-media-bias
+2019-11-08 13:35:56,035 : DEBUG : Inner page soup created
+2019-11-08 13:35:56,051 : DEBUG : Dictionary complete: {'name': 'Washington Post', 'allsides_page': 'https://www.allsides.com/news-source/washington-post-media-bias', 'bias': 'left-center', 'agree': 24509, 'disagree': 15362, 'agree_ratio': 1.5954302825152975, 'agreeance_text': 'agrees', 'news_page': 'https://www.washingtonpost.com/'}
+2019-11-08 13:35:56,054 : DEBUG : Attempting request to inner page to extract media outlet website: https://www.allsides.com/news-source/washington-times-bias
+2019-11-08 13:36:06,703 : DEBUG : Request made to inner page: https://www.allsides.com/news-source/washington-times-bias
+2019-11-08 13:36:06,734 : DEBUG : Inner page soup created
+2019-11-08 13:36:06,748 : DEBUG : Dictionary complete: {'name': 'Washington Times', 'allsides_page': 'https://www.allsides.com/news-source/washington-times-bias', 'bias': 'right-center', 'agree': 21262, 'disagree': 10702, 'agree_ratio': 1.9867314520650345, 'agreeance_text': 'agrees', 'news_page': 'http://www.washingtontimes.com/'}
+2019-11-08 13:36:16,750 : INFO : Scraping complete
